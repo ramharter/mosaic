@@ -1,0 +1,7 @@
+*.pyc
+workspace.xml
+tasks.xml
+**/image/
+**/.idea/
+**/database/
+**/additioal_data/

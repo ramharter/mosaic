@@ -1,0 +1,757 @@
+Mon Dec 19 10:50:52 2016    ./stats/16-12-18_win
+
+         22521 function calls (21963 primitive calls) in 668.390 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       21  666.680   31.747  666.680   31.747 {method 'acquire' of '_thread.lock' objects}
+        5    1.387    0.277    1.387    0.277 {method 'encode_to_file' of 'ImagingEncoder' objects}
+       10    0.097    0.010    0.097    0.010 {built-in method _winapi.WaitForSingleObject}
+        1    0.071    0.071    0.071    0.071 {built-in method PIL._imaging.fill}
+        4    0.044    0.011    0.044    0.011 {method 'paste' of 'ImagingCore' objects}
+        1    0.018    0.018  668.390  668.390 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:22(__init__)
+        4    0.017    0.004    0.017    0.004 {built-in method _winapi.CreateProcess}
+      249    0.013    0.000    0.013    0.000 {built-in method nt.stat}
+       44    0.012    0.000    0.013    0.000 <frozen importlib._bootstrap_external>:816(get_data)
+       44    0.005    0.000    0.005    0.000 {built-in method marshal.loads}
+        6    0.004    0.001    0.005    0.001 {built-in method _imp.create_dynamic}
+        4    0.003    0.001    0.003    0.001 {built-in method nt.remove}
+       10    0.002    0.000    0.002    0.000 {built-in method io.open}
+      150    0.002    0.000    0.004    0.000 {built-in method builtins.__build_class__}
+     49/1    0.002    0.000  668.407  668.407 {built-in method builtins.exec}
+      151    0.002    0.000    0.016    0.000 <frozen importlib._bootstrap_external>:1215(find_spec)
+      110    0.001    0.000    0.001    0.000 {built-in method winreg.OpenKey}
+       44    0.001    0.000    0.001    0.000 {method 'read' of '_io.FileIO' objects}
+        1    0.001    0.001    0.001    0.001 {method 'decode' of 'ImagingDecoder' objects}
+        5    0.001    0.000    0.001    0.000 {method 'close' of '_io.BufferedRandom' objects}
+      737    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:50(_path_join)
+      737    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:52(<listcomp>)
+      763    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+       59    0.001    0.000    0.020    0.000 <frozen importlib._bootstrap>:879(_find_spec)
+      136    0.001    0.000    0.001    0.000 {built-in method __new__ of type object at 0x000000001DEFDE40}
+      972    0.001    0.000    0.001    0.000 {built-in method builtins.getattr}
+        9    0.001    0.000    0.001    0.000 {method 'dump' of '_pickle.Pickler' objects}
+       44    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:419(_validate_bytecode_header)
+      598    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     61/9    0.000    0.000    0.061    0.007 <frozen importlib._bootstrap>:966(_find_and_load)
+       55    0.000    0.000    0.017    0.000 <frozen importlib._bootstrap_external>:1101(_get_spec)
+       44    0.000    0.000    0.021    0.000 <frozen importlib._bootstrap_external>:729(get_code)
+     16/4    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:491(_parse)
+       88    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:246(cache_from_source)
+       16    0.000    0.000    0.000    0.000 {built-in method _winapi.OpenProcess}
+      749    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:366(_verbose_message)
+       88    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:56(_path_split)
+      853    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      598    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:226(__next)
+     1568    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        4    0.000    0.000    0.020    0.005 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\popen_spawn_win32.py:33(__init__)
+       54    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:510(_init_module_attrs)
+     54/9    0.000    0.000    0.058    0.006 <frozen importlib._bootstrap>:659(_load_unlocked)
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+       62    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(_get_module_lock)
+       22    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:132(__new__)
+     61/9    0.000    0.000    0.061    0.007 <frozen importlib._bootstrap>:939(_find_and_load_unlocked)
+       55    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:598(_search_registry)
+      245    0.000    0.000    0.013    0.000 <frozen importlib._bootstrap_external>:68(_path_stat)
+       62    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:119(release)
+       10    0.000    0.000    0.000    0.000 {method 'flush' of '_io.BufferedRandom' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+     22/8    0.000    0.000    0.055    0.007 {built-in method builtins.__import__}
+       62    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:94(acquire)
+        6    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _winapi.CreatePipe}
+      132    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+     32/4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:64(_compile)
+    27/23    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:194(__subclasscheck__)
+   152/41    0.000    0.000    0.055    0.001 <frozen importlib._bootstrap>:996(_handle_fromlist)
+      537    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:247(get)
+     44/9    0.000    0.000    0.058    0.006 <frozen importlib._bootstrap_external>:659(exec_module)
+       88    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_compat_pickle.py:9(<module>)
+       52    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:58(__iter__)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:243(__init__)
+      380    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       28    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+       50    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:513(spec_from_file_location)
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(__exit__)
+       82    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:36(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:88(__new__)
+        4    0.000    0.000    0.002    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\collections\__init__.py:356(namedtuple)
+       55    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:591(_open_registry)
+      180    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1064(_path_importer_cache)
+      513    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       50    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1210(_get_spec)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\spawn.py:140(get_preparation_data)
+       44    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:474(_compile_bytecode)
+        1    0.000    0.000    0.008    0.008 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:42(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:343(_populate)
+       61    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:163(__enter__)
+       54    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap>:570(module_from_spec)
+       44    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:20(<module>)
+        9    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:37(__init__)
+       44    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:826(path_stats)
+      104    0.000    0.000    0.002    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\re.py:278(_compile)
+       26    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:120(splitdrive)
+       18    0.000    0.000    0.097    0.005 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\popen_spawn_win32.py:74(wait)
+      151    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:30(_relax_case)
+      101    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+       50    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:342(_get_cached)
+       61    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__init__)
+        7    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:589(_register_basic)
+    48/23    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:167(getwidth)
+       50    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:78(_path_is_mode_type)
+        5    0.000    0.000    1.388    0.278 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:444(_save)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\selectors.py:79(BaseSelector)
+        1    0.000    0.000    0.044    0.044 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:128(combine_quadrants)
+      224    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:856(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:717(TarInfo)
+       16    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:936(reduce_pipe_connection)
+        1    0.000    0.000    0.005    0.005 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\socket.py:47(<module>)
+        1    0.000    0.000    0.000    0.000 <string>:5(usage)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:278(__reduce__)
+       33    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+       18    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:248(_optimize_charset)
+        4    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:232(_save)
+        4    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1017(crop)
+        1    0.000    0.000  668.278  668.278 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:71(start)
+        5    0.000    0.000    1.391    0.278 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1623(save)
+        1    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+      100    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:26(__new__)
+       22    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:135(<setcomp>)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:547(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:374(CalledProcessError)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+     86/9    0.000    0.000    0.057    0.006 <frozen importlib._bootstrap>:214(_call_with_frames_removed)
+  675/659    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       94    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:406(cached)
+      121    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:157(__getitem__)
+      224    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:852(__enter__)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:101(__init__)
+        6    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.dir}
+        4    0.000    0.000    0.000    0.000 {method 'crop' of 'ImagingCore' objects}
+       28    0.000    0.000    0.000    0.000 {built-in method _winapi.CloseHandle}
+        1    0.000    0.000    0.022    0.022 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:10(<module>)
+       59    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(__init__)
+      271    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+       88    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:45(_r_long)
+        1    0.000    0.000    0.063    0.063 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:147(__init__)
+        1    0.000    0.000    0.009    0.009 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\shutil.py:5(<module>)
+       56    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+       90    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+      165    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\socket.py:76(<lambda>)
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.new}
+       26    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:301(__setattr__)
+      404    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       55    0.000    0.000    0.017    0.000 <frozen importlib._bootstrap_external>:1133(find_spec)
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:419(parent)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:786(__init__)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:197(split)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:71(__init__)
+       62    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+      166    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\socket.py:81(<lambda>)
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:24(<module>)
+      101    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\re.py:160(match)
+      286    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        4    0.000    0.000    0.044    0.011 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1264(paste)
+       55    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:613(find_spec)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:180(<listcomp>)
+        1    0.000    0.000    0.028    0.028 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:219(_repopulate_pool)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:151(__init__)
+        7    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:213(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateNamedPipe}
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:314(__enter__)
+       46    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:81(add)
+       61    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:170(__exit__)
+     14/4    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:429(_parse_sub)
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+       77    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       24    0.000    0.000    0.000    0.000 {built-in method _winapi.DuplicateHandle}
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:520(_new)
+       22    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       44    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+      216    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:324(<genexpr>)
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:30(<module>)
+       11    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\genericpath.py:111(_splitext)
+        8    0.000    0.000    0.002    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:57(dump)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:382(_check_name_wrapper)
+        4    0.000    0.000    0.027    0.007 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:310(_Popen)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:465(normpath)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:101(__getstate__)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1347(findCaller)
+       61    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:159(__init__)
+       50    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:87(_path_isfile)
+       32    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\random.py:220(_randbelow)
+        1    0.000    0.000    0.003    0.003 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\util.py:1(<module>)
+       18    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:221(_compile_charset)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:356(<module>)
+       58    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:155(save_images)
+        4    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:120(load)
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:310(__init__)
+       23    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:752(load)
+        1    0.000    0.000    1.387    1.387 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:581(_save)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:287(_open)
+        4    0.000    0.000    0.002    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:531(compile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\os.py:44(<listcomp>)
+        6    0.000    0.000    0.107    0.018 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1060(_wait_for_tstate_lock)
+       23    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:151(register)
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:51(__setitem__)
+       12    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+        4    0.000    0.000  666.573  166.643 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:261(wait)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pkgutil.py:1(<module>)
+      100    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:755(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method nt.lstat}
+        4    0.000    0.000    0.097    0.024 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:115(join)
+        5    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1269(info)
+       55    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+      331    0.000    0.000    0.000    0.000 {method 'isupper' of 'str' objects}
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:10(<module>)
+        1    0.000    0.000    0.010    0.010 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:35(<module>)
+        6    0.000    0.000    0.107    0.018 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1022(join)
+      224    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       59    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:716(find_spec)
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:225(_verbose_message)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:520(Pipe)
+        1    0.000    0.000    0.010    0.010 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:24(<module>)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\spawn.py:78(get_command_line)
+        4    0.000    0.000    0.028    0.007 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:95(start)
+        1    0.000    0.000    0.204    0.204 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:507(join)
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:11(<module>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:487(formatTime)
+        6    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1471(callHandlers)
+        2    0.000    0.000    0.000    0.000 {built-in method nt.urandom}
+       32    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\random.py:250(choice)
+        1    0.000    0.000    0.004    0.004 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:10(<module>)
+        1    0.000    0.000    0.024    0.024 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\queues.py:10(<module>)
+        2    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:532(_convert)
+      148    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        4    0.000    0.000  666.574  166.643 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:531(wait)
+    78/49    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       27    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:26(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:34(<module>)
+        6    0.000    0.000    0.000    0.000 {built-in method time.localtime}
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\selectors.py:5(<module>)
+        6    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1392(_log)
+        3    0.000    0.000    0.008    0.003 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:826(start)
+       18    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1224(current_thread)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:314(_create_)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:134(SOF)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:554(format)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:382(format)
+        1    0.000    0.000    0.004    0.004 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:10(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:378(ImageFileDirectory_v2)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:523(_args_from_interpreter_flags)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:968(emit)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:60(APP)
+        2    0.000    0.000    0.000    0.000 {function Random.seed at 0x0000000002CDA510}
+       25    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:525(_terminate_pool)
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\lzma.py:9(<module>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:18(_register)
+       58    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:975(_Unpickler)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:964(_stop)
+       19    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\collections\__init__.py:421(<genexpr>)
+        4    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.raw_encoder}
+       32    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:105(__init__)
+        1    0.000    0.000    0.005    0.005 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\runpy.py:8(<module>)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:167(__call__)
+        6    0.000    0.000    0.005    0.001 <frozen importlib._bootstrap_external>:903(create_module)
+       61    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:190(cb)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:74(join)
+       38    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:70(__contains__)
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.jpeg_decoder}
+        6    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1417(handle)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:51(__init__)
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:386(_simple)
+       12    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1377(makeRecord)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:412(_compile_info)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PpmImagePlugin.py:18(<module>)
+       27    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:20(__enter__)
+        7    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:500(__init__)
+        1    0.000    0.000    0.006    0.006 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\spawn.py:11(<module>)
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\decimal.py:2(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\posixpath.py:11(<module>)
+        4    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:819(parse)
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:105(get_quadrants)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:118(getLevelName)
+       55    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:789(find_spec)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:957(flush)
+       35    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       71    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:121(<setcomp>)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\random.py:93(seed)
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2474(register_extension)
+       63    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.007    0.007 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\popen_spawn_win32.py:1(<module>)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:427(_getencoder)
+       67    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:242(match)
+       24    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_binary.py:52(i16be)
+       97    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       11    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:220(splitext)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:30(<module>)
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\encodings\cp1252.py:18(encode)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:149(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:335(_map_async)
+       42    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:276(tell)
+       40    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:337(get_spawning_popen)
+       48    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_binary.py:65(o32le)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:575(decorator)
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GifImagePlugin.py:27(<module>)
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\bz2.py:5(<module>)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:52(_cleanup)
+       22    0.000    0.000    0.000    0.000 {method 'pixel_access' of 'ImagingCore' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\spawn.py:87(<genexpr>)
+        5    0.000    0.000    0.000    0.000 {method 'setimage' of 'ImagingEncoder' objects}
+       40    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:165(append)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:146(rng)
+       24    0.000    0.000    0.000    0.000 {built-in method _struct.unpack}
+        1    0.000    0.000    0.003    0.003 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImagePalette.py:19(<module>)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:157(__next__)
+        2    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateFile}
+        1    0.000    0.000    0.071    0.071 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2005(new)
+       56    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
+        6    0.000    0.000    0.022    0.004 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:350(preinit)
+       34    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        6    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:842(handle)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\functools.py:43(update_wrapper)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1515(isEnabledFor)
+        1    0.000    0.000    0.005    0.005 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:27(<module>)
+       18    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.004    0.004 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\fractions.py:4(<module>)
+       27    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:16(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:1(<module>)
+        4    0.000    0.000    0.000    0.000 {built-in method _winapi.GetExitCodeProcess}
+        2    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:63(Lock)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:45(normcase)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:182(DQT)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:1(<module>)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:67(isabs)
+        1    0.000    0.000    0.068    0.068 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:113(Pool)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:436(spec_from_loader)
+        2    0.000    0.000    0.027    0.013 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:108(SimpleQueue)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:16(_is_dunder)
+       60    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:160(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:1375(TarFile)
+       48    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:153(__len__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:1498(AppendingTiffWriter)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:186(get_crop_size)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\queues.py:334(__getstate__)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:362(_escape)
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:799(acquire)
+        7    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\fractions.py:60(Fraction)
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\fnmatch.py:11(<module>)
+        6    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1039(emit)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:260(getuntil)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:168(fileno)
+       19    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\collections\__init__.py:419(<genexpr>)
+        7    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:911(exec_module)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:406(_find_new_)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:144(Process)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:257(IFDRational)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2425(register_open)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:340(set_spawning_popen)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:384(mktemp)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\popen_spawn_win32.py:70(duplicate_for_child)
+        1    0.000    0.000    0.022    0.022 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2247(open)
+        2    0.000    0.000    0.000    0.000 {built-in method _winapi.ConnectNamedPipe}
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:217(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:725(_newname)
+        4    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:69(arbitrary_address)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageColor.py:20(<module>)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        2    0.000    0.000    0.002    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\queues.py:322(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2293(_open_core)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:240(__exit__)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:496(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:235(_requires_builtin_wrapper)
+       86    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_compat_pickle.py:167(<genexpr>)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:246(<lambda>)
+        7    0.000    0.000    0.000    0.000 {built-in method _struct.calcsize}
+        3    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 <string>:5(_TagInfo)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpGradientFile.py:16(<module>)
+        1    0.000    0.000    0.000    0.000 {built-in method _winapi.WriteFile}
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:70(duplicate)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:819(format)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:516(_help_stuff_finish)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:379(usesTime)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:598(<listcomp>)
+       27    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:52(_commit_removals)
+        1    0.000    0.000    0.000    0.000 <string>:5(SelectorKey)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\weakref.py:101(__init__)
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:695(filter)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:737(create_module)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegPresets.py:67(<module>)
+        4    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\socket.py:123(socket)
+        4    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:114(_ConnectionBase)
+       20    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\popen_spawn_win32.py:42(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1501(getEffectiveLevel)
+        7    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:38(_remove)
+       47    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        4    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:516(_code)
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:806(release)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:47(dumps)
+       10    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:427(has_location)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\functools.py:690(singledispatch)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:344(_Pickler)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:343(assert_spawning)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:78(opengroup)
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:8(_is_descriptor)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:361(_get_mixins_)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:83(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:532(usesTime)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:230(basename)
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.jpeg_encoder}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:181(send_bytes)
+       10    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:35(_get_bothseps)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\genericpath.py:27(isfile)
+       10    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000  666.565  666.565 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:255(map)
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\popen_spawn_win32.py:90(poll)
+       13    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:892(__init__)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\fractions.py:318(_operator_fallbacks)
+        4    0.000    0.000    0.000    0.000 {built-in method msvcrt.open_osfhandle}
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:237(__enter__)
+        7    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_util.py:13(isPath)
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:24(_is_sunder)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:136(isImageType)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:629(SpooledTemporaryFile)
+        1    0.000    0.000    0.000    0.000 <string>:5(DecimalTuple)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:321(getMessage)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:508(getdefaultlocale)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:138(Pool)
+       27    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:115(_make_name)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1132(getLogger)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:27(__init__)
+       32    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:158(readable)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\copyreg.py:96(_slotnames)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:374(_mk_bitmap)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1183(_fixupParents)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:583(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:260(__getattr__)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:811(get_filename)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageChops.py:18(<module>)
+       28    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:335(_delegate)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1074(name)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_util.py:10(isStringType)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\queues.py:34(Queue)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:117(__init__)
+       18    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:75(groups)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:376(<listcomp>)
+       27    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_binary.py:23(i8)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\os.py:40(_get_exports_list)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:279(_send_bytes)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpPaletteFile.py:17(<module>)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:88(_exists)
+        3    0.000    0.000    0.000    0.000 {method 'GetOverlappedResult' of '_winapi.Overlapped' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:125(is_alive)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\weakref.py:325(__init__)
+        1    0.000    0.000    0.027    0.027 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:242(_setup_queues)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\bz2.py:31(BZ2File)
+       12    0.000    0.000    0.000    0.000 {method 'write' of '_io.BufferedRandom' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _winapi.SetNamedPipeHandleState}
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:215(__call__)
+        5    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:830(Popen)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:78(__init__)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\spawn.py:122(_check_not_importing_main)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:237(get_start_method)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:627(__init__)
+       10    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:506(_safe_read)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:70(__init__)
+       43    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_compat_pickle.py:165(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:538(formatMessage)
+       10    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:137(name)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\queues.py:347(put)
+       41    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:561(getlocale)
+       13    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:504(is_set)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:115(put)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:332(notify)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:255(load_prepare)
+        1    0.000    0.000  666.565  666.565 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:601(get)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:235(_get_candidate_names)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:410(_getdecoder)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:48(debug)
+        1    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_collections_abc.py:748(clear)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:742(jpeg_factory)
+       17    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:134(_check_closed)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:130(__del__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:745(exec_module)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:249(_acquire_restore)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\lzma.py:37(LZMAFile)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:141(name)
+       24    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:797(fix_flags)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\functools.py:727(register)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\weakref.py:443(popitem)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:103(contextmanager)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:35(current_process)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2451(register_save)
+        1    0.000    0.000  668.390  668.390 C:/Users/Lila/photo_mosaic/sources/photo_mosaic_maker/MosaicBuilder/main.py:14(main)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1134(daemon)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:47(__init__)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:172(exitcode)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:513(isstring)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:99(<dictcomp>)
+       34    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+       11    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:161(__setitem__)
+       27    0.000    0.000    0.000    0.000 {method '__subclasshook__' of 'object' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:55(Skip)
+       24    0.000    0.000    0.000    0.000 {built-in method _winapi.GetCurrentProcess}
+        8    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PaletteFile.py:16(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:799(ImageFileDirectory_v1)
+        4    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:21(Queue)
+        5    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\socket.py:532(SocketIO)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:656(create_module)
+       32    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:163(writable)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:495(close)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2440(register_mime)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1239(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:892(TiffImageFile)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:84(__prepare__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:372(Barrier)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:47(SemLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GifImagePlugin.py:53(GifImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1257(debug)
+       16    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:252(_is_owned)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:186(InspectLoader)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:101(fixup)
+        6    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:66(_tilesort)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:401(TimeoutExpired)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:422(Listener)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\random.py:84(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\functools.py:422(decorating_function)
+        8    0.000    0.000    0.000    0.000 {built-in method _sre.getlower}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:348(Connection)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:195(_lock_unlock_module)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:211(_acquireLock)
+        2    0.000    0.000    0.000    0.000 {method 'mro' of 'type' objects}
+        1    0.000    0.000  666.565  666.565 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:598(wait)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:285(SourceLoader)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:161(authkey)
+        7    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:42(register)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\genericpath.py:16(exists)
+        9    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\popen_spawn_win32.py:27(Popen)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:183(_Framer)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:268(PipeConnection)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:179(get_output_size)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:32(ForkingPickler)
+        5    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:9(abstractmethod)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+       19    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:740(ThreadPool)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:136(_RandomNameSequence)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:602(_FileInFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:282(JpegImageFile)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:153(daemon)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:90(closegroup)
+        3    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\re.py:222(compile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:203(PngInfo)
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_multiprocessing.SemLock' objects}
+        5    0.000    0.000    0.000    0.000 {method 'fileno' of '_io.BufferedRandom' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:246(_release_save)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:333(Event)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:135(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:375(normalize)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pkgutil.py:260(ImpLoader)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1774(getLogger)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:140(<genexpr>)
+       32    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:220(_releaseLock)
+        8    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_binary.py:61(o16le)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\util.py:258(LazyLoader)
+       12    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:328(_Stream)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:162(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1118(daemon)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:61(BmpImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:322(ForkAwareThreadLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:211(Condition)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\selectors.py:290(SelectSelector)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\enum.py:285(__members__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:29(Finder)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:147(Finalize)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:91(_make_methods)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:572(_StreamProxy)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:584(decorator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:623(PipeListener)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:459(_getmp)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:459(_TemporaryFileWrapper)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\functools.py:73(wraps)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\queues.py:278(JoinableQueue)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:280(PngStream)
+       13    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:777(TemporaryDirectory)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:97(ChunkStream)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:214(PriorityQueue)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\queues.py:320(SimpleQueue)
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1988(_check_size)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImagePalette.py:26(ImagePalette)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\functools.py:391(lru_cache)
+        5    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:307(Parser)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:75(ImageFile)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:574(_register_loader)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:276(_close)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tempfile.py:416(_TemporaryFileCloser)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageSequence.py:19(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:581(ApplyResult)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:233(ExitStack)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:199(_init)
+        4    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\spawn.py:45(get_executable)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1102(is_alive)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:79(PathEntryFinder)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\runpy.py:23(_TempModule)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\selectors.py:205(_BaseSelectorImpl)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:515(PngImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:397(_getmp)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\weakref.py:261(update)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:221(get_context)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:564(SocketListener)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2233(_decompression_bomb_check)
+        1    0.000    0.000    0.000    0.000 {method 'setimage' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:476(Handle)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageSequence.py:19(Iterator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:200(get_tile_number)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:675(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:591(ready)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:458(_parse_localename)
+        1    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_io.BytesIO' objects}
+        1    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2462(register_save_all)
+        5    0.000    0.000    0.000    0.000 {method 'cleanup' of 'ImagingEncoder' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pkgutil.py:186(ImpImporter)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\selectors.py:59(_SelectorMapping)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:206(_put)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PpmImagePlugin.py:59(PpmImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:239(ExecutionLoader)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:2402(TarIter)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpGradientFile.py:61(GradientFile)
+        5    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'popitem' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:657(_idat)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:745(ConnectionWrapper)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:170(ResourceLoader)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:137(closing)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:185(get_context)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:34(_GeneratorContextManager)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:23(TagInfo)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1086(append)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:762(is_package)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:304(_LowLevelFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:233(LifoQueue)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:277(StubImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:183(iTXt)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:430(STARTUPINFO)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:76(MaybeEncodingError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:47(MetaPathFinder)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:629(CompletedProcess)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:54(_accept)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:219(_Unframer)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:123(Loader)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:662(IMapIterator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:124(Semaphore)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:162(_RedirectStream)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:182(_checkLevel)
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PaletteFile.py:22(PaletteFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:241(_accept)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:211(DibImageFile)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:583(_register_writer)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:202(suppress)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:339(ForkAwareLocal)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:143(BoundedSemaphore)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:53(RemoteTraceback)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\shutil.py:52(SameFileError)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\util.py:44(sub_debug)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:160(Lock)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpPaletteFile.py:24(GimpPaletteFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:203(_C)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:267(TarError)
+        3    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:59(ExceptionWithTraceback)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:706(ExFileObject)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\runpy.py:46(_ModifiedArgv0)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\reduction.py:99(DupHandle)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:11(ContextDecorator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GifImagePlugin.py:45(_accept)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\context.py:195(get_start_method)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\socket.py:120(_GiveupOnSendfile)
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {method 'remove' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\subprocess.py:371(SubprocessError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:142(_check_writable)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:180(redirect_stdout)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:67(PicklingError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:291(EOFHeaderError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:172(get_imsize)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:288(TruncatedHeaderError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:279(StreamError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpGradientFile.py:102(GimpGradientFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:63(PickleError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\shutil.py:49(Error)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:297(SubsequentHeaderError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\connection.py:767(XmlListener)
+        2    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISREG}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\shutil.py:55(SpecialFileError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:294(InvalidHeaderError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:726(IMapUnorderedIterator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\shutil.py:62(ReadError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\shutil.py:65(RegistryError)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:87(_Stop)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:13(Empty)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:275(_accept)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\util.py:212(_LazyModule)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:270(ExtractError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\util.py:207(_Module)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\importlib\abc.py:276(FileLoader)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\runpy.py:151(_Error)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\shutil.py:59(ExecError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:633(validate_qtables)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:282(HeaderError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\contextlib.py:196(redirect_stderr)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:264(load_end)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\synchronize.py:185(RLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\queue.py:17(Full)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\pool.py:625(MapResult)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\pickle.py:74(UnpicklingError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:273(ReadError)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:285(EmptyHeaderError)
+        1    0.000    0.000    0.000    0.000 {method 'cleanup' of 'ImagingDecoder' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\tarfile.py:276(CompressionError)

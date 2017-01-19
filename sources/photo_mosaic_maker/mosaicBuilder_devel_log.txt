@@ -1,0 +1,119 @@
+TO DO
+5.12.
+
+- find a way to produce larger images
+	- the largest image creatable is 20000x20000 pixel. If i want to keep the tiles recognizable, i need a minimum of 200px per side.
+		- this already leads to cropped output images, and if i wanted to decrease the (original) tile size i could not possibly produce images large enough
+	- i read somewhere that it is possible (has to be possible, photoshop found a way) but i haven't had a chance to read up on it.
+		- something something imageMagick?
+		
+		- 6.12. NEW INFO: largest pixel count is actually 22527x22527 (just tested)
+		
+	- threading mit 4 parallelen prozessen (multiprocessing)
+	- dann 
+		
+		- maybe give pycharm more memory and stuff:
+		something in /bin -> pycharm.vmoptions -> -Xmx750m (gehört gechanged) something in stackexchange
+	
+	- maybe it would be possible to split the original image into quadrants and use different processes to create 4 parts of the mosaic in parallel, then combine all 4 into one giant image
+		(https://www.youtube.com/watch?v=XT13ijUfSts just replace woman with image)
+		--> this would not only significantly reduce time, there might also be a way to create much larger images using this method
+	
+	
+- implement simlpe idea to avoid too much repetition for now (could/should be then modified accodingly): 
+	save all matches in a dictionary (key = position, value= path), and check at every match if the tile above (current pos - tiles_per_row) or the tile before (cupprent pos - 1) 
+	share the same path and if that's the case use the second best image instead (ofc the second best also has to be checked against neighbors, but that should be manageable)
+	
+- idea to get second best match: same dict idea basically. in get_match(), keep a dict of possible matches with their respective d.
+	in case, the best match is already taken, pick the second lowest d and so on.
+		--> possible problem (unrealistic, though) if two db tiles somehow manage to get the exact same d, the second one will overwrite the first one in a dict.
+				--> but if the first one is already taken, another tile with the same d would be perfect.
+				--> possible solution. collections.defaultdict (http://stackoverflow.com/questions/10664856/make-dictionary-with-duplicate-keys-in-python?answertab=votes#tab-top)
+				
+				
+7.12.
+
+	- i tested cpu usage when -mosaicWorker runs outside of PyCharm (in terminal), but it still only uses 25% max. so it is actually only using one core (which makes sense, though)
+	- next step: 
+	
+	
+8.12.
+
+	- I just tested the MosaicBuilder in linux. as is seems, the image size problems are windows related.
+	- i have not found an image size i couldn't produce under linux.
+	
+	- bad news: MosaicBuilder uses 100% cpu and 90% memory in linux, making it impossible to work while it is processing.
+		- it does not seem to run any faster than the windows version with 25% cpu, which is pretty bad.
+		
+9.12.
+
+	- first try multiprocessing.
+	- because i'm an easily scared individual, i set up a new project to adapt my code to multithreading.
+		- i created 4 threads (at least i think i did), but there are only 2 python processes running according to task manager.
+		- also from the output it is obvious that two threads run slightly faster than the other two.
+		- it is currently running and i'm stopping the time to determine if this speeds things up or not.
+		
+	- SORRY, i'm stupid:
+		- there are two python processes running because my (non-threaded) mosaicBuilder is also running atm.
+		- so apparenty, my 'regular' mosaicBuilder is using one kernel (max CPU load 25%) and the new, threaded mosaicBuilder is using slightly more that one kernel (around 30% CPU load)
+		- will let both run for now, but i will need to redo the timing tests with less load.
+		
+		30 minutes later: multiprocessing does not seem to be faster... crap
+		myabe it is actually a problem related to r/w speed of my disk? since it doesn't get any faster regardless of how much cpu i get to use.
+		- it roughly reads 11.000.000.000 bytes according to taskmanager 
+		
+12.12.
+
+	- over the course of the last couple of days I did a lot of testing both on linux and on windows.
+	- Multiprocessing does not spped up the process. maybe I did it wrong? need to read up on that more.
+	- my program uses roughly 28-30% CPU both on windows as well as on linux. (with multiprocessing) 
+		--> so apparently it is capable of unsing more that one core, but for some reason doesn't really.
+	- I'm starting to wonder whether the cpu is not even the culprit here, maybe it's the disk or the ram ?
+	
+	- tried to run both the multiprocessing version and the regular version one after the other over night on linux.
+		- when i woke up this morning, the regular one was still running
+					multiprocessing start: 	2016-12-11 00:45:26,877
+					multiprocessing end:		2016-12-11 08:03:05,244
+					regular start:					2016-12-11 08:03:52,691
+					regular end:						2016-12-11 10:16:20,937 at 14793/34503
+			
+			stupidly, i couldn't wait and tried to open the resuling image from the multiprocessing version, which killed my program with exit code 137 (which points to out of memory problems)
+			
+		- things to try:
+			- read up on how i can test memory and disk usage of my program.
+			- check again how other peole are doing it and if that's any faster.
+			- see if there are any other ways to implement multiprocessing since i pretty much just used the simplest way known to man (i guess)
+					- check disk speed with winsat disk (https://technet.microsoft.com/en-us/library/cc742157.aspx) after program finishes
+					
+16.12.
+
+	- found a mistake: i used threadPool when i actually wanted to use pool (which is multiprocessing)
+		- however, with pool i still only get one process (according to task manager) and no disk activity (how is that even possible?)
+		- apparently it is even worse than i thought: i'm using multiprocessing.dummy which apparently is not actually mutiprocessing, but threading which obvs does nothing for me.
+			- with using multiprocessing Pool, it now uses 100% of my cpu, has spawned a buttload of processes (more than 4, which i wanted) and does not necessarily seem faster (addendum: it is not faster)
+			
+			- so: with using Pool(processes=4) etc. I can actually speed up the process quite a lot. latest try took only 16 minutes as opposed to 45 with the regular method.
+	- file size problems under windows have been solved: I've been using a 32bit version of python. 64bit works like a charm (well, kinda. it works but it uses pretty much all of my ram, 12gb)
+	
+	all i do today is fixing my own damn mistakes and i feel so incredibly stupid the whole time
+
+17.12.
+
+	- i started to profile the worker with cProfile and found out that hex2rgb is pretty much the most time consuming method i have.
+	- currently trying a different implementation of hex2rgb to see if that might speed it up a bit
+		- I used matplotlib's color module, but it took slightly longer than my implementation
+		
+18.12.
+
+	- i completely reworked the logging aspects. no more weird PIL logs and more specific info regarding process, module, function
+	- on a different note, the program is slightly faster on windows vs linux (20 vs 25 minutes) --> would be interesting to know why
+	
+19.12.
+
+	- today i tried to figure out who's responsible for the "method 'acquire' of '_thread.lock' objects", which take an enormous amount of time.
+		- and again: i was stupid, cProfile was just looking at Mosaic and not the workers, so this just signifies the amount of time Mosaic waited for the workers to finish.
+	- i thought maybe there is a specific reason, e.g. all processes printing to stdout all the time.
+	- turns out that's not it. I made two different mosaic versions, one who printf to stdout and one who doesn't. both are equally slow/fast
+
+				
+			

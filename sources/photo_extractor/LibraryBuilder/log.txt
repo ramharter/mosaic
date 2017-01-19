@@ -1,0 +1,2115 @@
+2017-01-17 12:06:19,875 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Beatles
+2017-01-17 12:06:20,117 - DEBUG - Artist already in library: The Beatles, b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d
+2017-01-17 12:06:20,119 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Y-%26-T
+2017-01-17 12:06:20,336 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/e773e9a3-cadd-41d2-a7e9-4ca097ae5a3f?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:20,462 - DEBUG - 16 album covers found for artist Y & T
+2017-01-17 12:06:20,464 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Wizzard
+2017-01-17 12:06:20,630 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/9a121283-e355-4741-8729-f4b84650ff78?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:20,681 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 12:06:20,681 - DEBUG - No album covers found for artist Wizzard
+2017-01-17 12:06:20,683 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fleetwood-Mac
+2017-01-17 12:06:20,853 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/bd13909f-1c29-4c27-a874-d4aaf27c5b1a?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:20,935 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:06:20,935 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:06:20,936 - DEBUG - 38 album covers found for artist Fleetwood Mac
+2017-01-17 12:06:20,937 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Thorinshield
+2017-01-17 12:06:21,059 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/e9d47cf1-b212-40d1-8515-6c8655860015?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:21,110 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 12:06:21,110 - DEBUG - No album covers found for artist Thorinshield
+2017-01-17 12:06:21,111 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Sandra
+2017-01-17 12:06:21,275 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/9809d784-037f-46e7-8d2d-7ecad897f355?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:21,351 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:06:21,351 - DEBUG - 20 album covers found for artist Sandra
+2017-01-17 12:06:21,352 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alan-Silvestri
+2017-01-17 12:06:21,550 - DEBUG - Artist already in library: Alan Silvestri, f4c53778-e48d-4da4-9ddd-cc007f715d64
+2017-01-17 12:06:21,551 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alva-Noto
+2017-01-17 12:06:21,674 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/48ec4bb6-47a6-4e2c-8287-7617464eb193?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:21,725 - DEBUG - 1 album covers found for artist Alva Noto
+2017-01-17 12:06:21,726 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Tina-Charles
+2017-01-17 12:06:21,890 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/93117a67-55b4-4b18-94c4-35c8a75fefc2?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:21,938 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 12:06:21,938 - DEBUG - No album covers found for artist Tina Charles
+2017-01-17 12:06:21,939 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anni-B.-Sweet
+2017-01-17 12:06:22,070 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/6a82f4bf-c956-4e7a-b626-cd569ee26c23?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:22,105 - DEBUG - 6 album covers found for artist Anni B. Sweet
+2017-01-17 12:06:22,106 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anna-Naklab
+2017-01-17 12:06:22,179 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,179 - DEBUG - Could not retrieve artist id from database: Anna Naklab
+2017-01-17 12:06:22,181 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Arch-Enemy
+2017-01-17 12:06:22,254 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,254 - DEBUG - Could not retrieve artist id from database: Arch Enemy
+2017-01-17 12:06:22,256 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Cat-Stevens
+2017-01-17 12:06:22,331 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,331 - DEBUG - Could not retrieve artist id from database: Cat Stevens
+2017-01-17 12:06:22,332 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lisa-Stansfield
+2017-01-17 12:06:22,408 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,408 - DEBUG - Could not retrieve artist id from database: Lisa Stansfield
+2017-01-17 12:06:22,409 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alvaro-Soler
+2017-01-17 12:06:22,483 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,484 - DEBUG - Could not retrieve artist id from database: Alvaro Soler
+2017-01-17 12:06:22,485 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marco-Beltrami
+2017-01-17 12:06:22,559 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,559 - DEBUG - Could not retrieve artist id from database: Marco Beltrami
+2017-01-17 12:06:22,560 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Snot
+2017-01-17 12:06:22,634 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,634 - DEBUG - Could not retrieve artist id from database: Snot
+2017-01-17 12:06:22,635 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Nancy-Sinatra
+2017-01-17 12:06:22,720 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,720 - DEBUG - Could not retrieve artist id from database: Nancy Sinatra
+2017-01-17 12:06:22,722 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:J%C3%B3hann-J%C3%B3hannsson
+2017-01-17 12:06:22,795 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,795 - DEBUG - Could not retrieve artist id from database: Jóhann Jóhannsson
+2017-01-17 12:06:22,796 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Howard-Shore
+2017-01-17 12:06:22,871 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,871 - DEBUG - Could not retrieve artist id from database: Howard Shore
+2017-01-17 12:06:22,872 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%B7%9D%E7%94%B0%E3%81%BE%E3%81%BF
+2017-01-17 12:06:22,945 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:22,945 - DEBUG - Could not retrieve artist id from database: 川田まみ
+2017-01-17 12:06:22,946 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Carlos-Santana
+2017-01-17 12:06:23,022 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,022 - DEBUG - Could not retrieve artist id from database: Carlos Santana
+2017-01-17 12:06:23,023 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:SAKEROCK
+2017-01-17 12:06:23,096 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,096 - DEBUG - Could not retrieve artist id from database: SAKEROCK
+2017-01-17 12:06:23,098 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joaqu%C3%ADn-Sabina
+2017-01-17 12:06:23,182 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,182 - DEBUG - Could not retrieve artist id from database: Joaquín Sabina
+2017-01-17 12:06:23,183 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Runaway-City
+2017-01-17 12:06:23,258 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,258 - DEBUG - Could not retrieve artist id from database: Runaway City
+2017-01-17 12:06:23,259 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3rd-Wish
+2017-01-17 12:06:23,333 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,333 - DEBUG - Could not retrieve artist id from database: 3rd Wish
+2017-01-17 12:06:23,335 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Redlight-King
+2017-01-17 12:06:23,406 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,407 - DEBUG - Could not retrieve artist id from database: Redlight King
+2017-01-17 12:06:23,408 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Queen
+2017-01-17 12:06:23,483 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,484 - DEBUG - Could not retrieve artist id from database: Queen
+2017-01-17 12:06:23,485 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Billy-Preston
+2017-01-17 12:06:23,557 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,557 - DEBUG - Could not retrieve artist id from database: Billy Preston
+2017-01-17 12:06:23,558 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Polar-Bear-Club
+2017-01-17 12:06:23,633 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,633 - DEBUG - Could not retrieve artist id from database: Polar Bear Club
+2017-01-17 12:06:23,634 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Platters
+2017-01-17 12:06:23,706 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,707 - DEBUG - Could not retrieve artist id from database: The Platters
+2017-01-17 12:06:23,708 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ante-Perry
+2017-01-17 12:06:23,782 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,783 - DEBUG - Could not retrieve artist id from database: Ante Perry
+2017-01-17 12:06:23,784 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Paper-Route
+2017-01-17 12:06:23,857 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,857 - DEBUG - Could not retrieve artist id from database: Paper Route
+2017-01-17 12:06:23,859 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Black-Lungs
+2017-01-17 12:06:23,933 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:23,933 - DEBUG - Could not retrieve artist id from database: Black Lungs
+2017-01-17 12:06:23,934 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:John-Ottman
+2017-01-17 12:06:24,009 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,009 - DEBUG - Could not retrieve artist id from database: John Ottman
+2017-01-17 12:06:24,010 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Orchids
+2017-01-17 12:06:24,084 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,084 - DEBUG - Could not retrieve artist id from database: The Orchids
+2017-01-17 12:06:24,085 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Borracho
+2017-01-17 12:06:24,158 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,159 - DEBUG - Could not retrieve artist id from database: Borracho
+2017-01-17 12:06:24,160 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M83
+2017-01-17 12:06:24,234 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,234 - DEBUG - Could not retrieve artist id from database: M83
+2017-01-17 12:06:24,236 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M.O
+2017-01-17 12:06:24,312 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,312 - DEBUG - Could not retrieve artist id from database: M.O
+2017-01-17 12:06:24,313 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anne-McCue
+2017-01-17 12:06:24,387 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,387 - DEBUG - Could not retrieve artist id from database: Anne McCue
+2017-01-17 12:06:24,389 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Matoma
+2017-01-17 12:06:24,462 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,462 - DEBUG - Could not retrieve artist id from database: Matoma
+2017-01-17 12:06:24,464 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marillion
+2017-01-17 12:06:24,551 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,551 - DEBUG - Could not retrieve artist id from database: Marillion
+2017-01-17 12:06:24,552 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mano-Negra
+2017-01-17 12:06:24,626 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,626 - DEBUG - Could not retrieve artist id from database: Mano Negra
+2017-01-17 12:06:24,627 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Barry-Manilow
+2017-01-17 12:06:24,701 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,701 - DEBUG - Could not retrieve artist id from database: Barry Manilow
+2017-01-17 12:06:24,702 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mango
+2017-01-17 12:06:24,775 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,775 - DEBUG - Could not retrieve artist id from database: Mango
+2017-01-17 12:06:24,777 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Taj-Mahal
+2017-01-17 12:06:24,852 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,853 - DEBUG - Could not retrieve artist id from database: Taj Mahal
+2017-01-17 12:06:24,854 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Madredeus
+2017-01-17 12:06:24,930 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:24,930 - DEBUG - Could not retrieve artist id from database: Madredeus
+2017-01-17 12:06:24,931 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Luis-Miguel
+2017-01-17 12:06:25,007 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,007 - DEBUG - Could not retrieve artist id from database: Luis Miguel
+2017-01-17 12:06:25,008 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Louisa-Johnson
+2017-01-17 12:06:25,084 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,084 - DEBUG - Could not retrieve artist id from database: Louisa Johnson
+2017-01-17 12:06:25,086 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Live
+2017-01-17 12:06:25,160 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,160 - DEBUG - Could not retrieve artist id from database: Live
+2017-01-17 12:06:25,161 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Litfiba
+2017-01-17 12:06:25,240 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,240 - DEBUG - Could not retrieve artist id from database: Litfiba
+2017-01-17 12:06:25,242 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ligabue
+2017-01-17 12:06:25,314 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,314 - DEBUG - Could not retrieve artist id from database: Ligabue
+2017-01-17 12:06:25,315 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Leftover-Cuties
+2017-01-17 12:06:25,387 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,388 - DEBUG - Could not retrieve artist id from database: Leftover Cuties
+2017-01-17 12:06:25,389 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Zara-Larsson
+2017-01-17 12:06:25,464 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,464 - DEBUG - Could not retrieve artist id from database: Zara Larsson
+2017-01-17 12:06:25,465 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M%C3%A4go-de-Oz
+2017-01-17 12:06:25,539 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,539 - DEBUG - Could not retrieve artist id from database: Mägo de Oz
+2017-01-17 12:06:25,540 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%96%9C%E5%A4%9A%E9%83%8E
+2017-01-17 12:06:25,614 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,615 - DEBUG - Could not retrieve artist id from database: 喜多郎
+2017-01-17 12:06:25,616 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Johnson
+2017-01-17 12:06:25,691 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,691 - DEBUG - Could not retrieve artist id from database: Andreas Johnson
+2017-01-17 12:06:25,693 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Al-Jarreau
+2017-01-17 12:06:25,767 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,768 - DEBUG - Could not retrieve artist id from database: Al Jarreau
+2017-01-17 12:06:25,769 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jarabe-de-Palo
+2017-01-17 12:06:25,843 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,843 - DEBUG - Could not retrieve artist id from database: Jarabe de Palo
+2017-01-17 12:06:25,845 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fo%E2%80%99xTails
+2017-01-17 12:06:25,917 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,917 - DEBUG - Could not retrieve artist id from database: Fo’xTails
+2017-01-17 12:06:25,918 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Axxis
+2017-01-17 12:06:25,991 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:25,991 - DEBUG - Could not retrieve artist id from database: Axxis
+2017-01-17 12:06:25,992 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dew-Scented
+2017-01-17 12:06:26,068 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,068 - DEBUG - Could not retrieve artist id from database: Dew-Scented
+2017-01-17 12:06:26,069 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lena-Horne
+2017-01-17 12:06:26,143 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,143 - DEBUG - Could not retrieve artist id from database: Lena Horne
+2017-01-17 12:06:26,145 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Rolling-Stones
+2017-01-17 12:06:26,219 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,219 - DEBUG - Could not retrieve artist id from database: The Rolling Stones
+2017-01-17 12:06:26,221 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alexandre-Desplat
+2017-01-17 12:06:26,296 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,297 - DEBUG - Could not retrieve artist id from database: Alexandre Desplat
+2017-01-17 12:06:26,298 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgia
+2017-01-17 12:06:26,373 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,373 - DEBUG - Could not retrieve artist id from database: Giorgia
+2017-01-17 12:06:26,375 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgio-Gaber
+2017-01-17 12:06:26,451 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,451 - DEBUG - Could not retrieve artist id from database: Giorgio Gaber
+2017-01-17 12:06:26,452 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Gabalier
+2017-01-17 12:06:26,526 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,526 - DEBUG - Could not retrieve artist id from database: Andreas Gabalier
+2017-01-17 12:06:26,527 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Journey
+2017-01-17 12:06:26,601 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,601 - DEBUG - Could not retrieve artist id from database: Journey
+2017-01-17 12:06:26,602 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andy-Fraser
+2017-01-17 12:06:26,675 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,675 - DEBUG - Could not retrieve artist id from database: Andy Fraser
+2017-01-17 12:06:26,676 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Silverchair
+2017-01-17 12:06:26,750 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,751 - DEBUG - Could not retrieve artist id from database: Silverchair
+2017-01-17 12:06:26,752 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ibrahim-Ferrer
+2017-01-17 12:06:26,825 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,825 - DEBUG - Could not retrieve artist id from database: Ibrahim Ferrer
+2017-01-17 12:06:26,827 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Family-of-the-Year
+2017-01-17 12:06:26,899 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,899 - DEBUG - Could not retrieve artist id from database: Family of the Year
+2017-01-17 12:06:26,900 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Van-Halen
+2017-01-17 12:06:26,973 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:26,973 - DEBUG - Could not retrieve artist id from database: Van Halen
+2017-01-17 12:06:26,974 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Abel-Korzeniowski
+2017-01-17 12:06:27,046 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,046 - DEBUG - Could not retrieve artist id from database: Abel Korzeniowski
+2017-01-17 12:06:27,047 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eruption
+2017-01-17 12:06:27,121 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,121 - DEBUG - Could not retrieve artist id from database: Eruption
+2017-01-17 12:06:27,123 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Asphyx
+2017-01-17 12:06:27,196 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,196 - DEBUG - Could not retrieve artist id from database: Asphyx
+2017-01-17 12:06:27,197 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Peking-Duk
+2017-01-17 12:06:27,272 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,272 - DEBUG - Could not retrieve artist id from database: Peking Duk
+2017-01-17 12:06:27,273 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Kent
+2017-01-17 12:06:27,348 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,348 - DEBUG - Could not retrieve artist id from database: Kent
+2017-01-17 12:06:27,349 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dr.Living-Dead%21
+2017-01-17 12:06:27,422 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,423 - DEBUG - Could not retrieve artist id from database: Dr.Living Dead!
+2017-01-17 12:06:27,424 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dr.-Hook
+2017-01-17 12:06:27,497 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,497 - DEBUG - Could not retrieve artist id from database: Dr. Hook
+2017-01-17 12:06:27,498 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eros-Ramazzotti
+2017-01-17 12:06:27,573 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,573 - DEBUG - Could not retrieve artist id from database: Eros Ramazzotti
+2017-01-17 12:06:27,574 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Santa-Esmeralda
+2017-01-17 12:06:27,648 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,648 - DEBUG - Could not retrieve artist id from database: Santa Esmeralda
+2017-01-17 12:06:27,649 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Willie-Dixon
+2017-01-17 12:06:27,720 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,720 - DEBUG - Could not retrieve artist id from database: Willie Dixon
+2017-01-17 12:06:27,721 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jesse-McCartney
+2017-01-17 12:06:27,795 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,795 - DEBUG - Could not retrieve artist id from database: Jesse McCartney
+2017-01-17 12:06:27,796 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Culcha-Candela
+2017-01-17 12:06:27,868 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,868 - DEBUG - Could not retrieve artist id from database: Culcha Candela
+2017-01-17 12:06:27,869 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Christopher-Cross
+2017-01-17 12:06:27,944 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:27,944 - DEBUG - Could not retrieve artist id from database: Christopher Cross
+2017-01-17 12:06:27,945 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Massacre
+2017-01-17 12:06:28,022 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,022 - DEBUG - Could not retrieve artist id from database: Massacre
+2017-01-17 12:06:28,023 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:James-Newton-Howard
+2017-01-17 12:06:28,099 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,099 - DEBUG - Could not retrieve artist id from database: James Newton Howard
+2017-01-17 12:06:28,100 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joy-Division
+2017-01-17 12:06:28,175 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,175 - DEBUG - Could not retrieve artist id from database: Joy Division
+2017-01-17 12:06:28,176 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Chuck-D
+2017-01-17 12:06:28,251 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,251 - DEBUG - Could not retrieve artist id from database: Chuck D
+2017-01-17 12:06:28,252 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anthrax
+2017-01-17 12:06:28,325 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,325 - DEBUG - Could not retrieve artist id from database: Anthrax
+2017-01-17 12:06:28,326 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Chefket
+2017-01-17 12:06:28,399 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,399 - DEBUG - Could not retrieve artist id from database: Chefket
+2017-01-17 12:06:28,401 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Charli-XCX
+2017-01-17 12:06:28,475 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,475 - DEBUG - Could not retrieve artist id from database: Charli XCX
+2017-01-17 12:06:28,476 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Chainsmokers
+2017-01-17 12:06:28,550 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,550 - DEBUG - Could not retrieve artist id from database: The Chainsmokers
+2017-01-17 12:06:28,552 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Yvonne-Catterfeld
+2017-01-17 12:06:28,626 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,626 - DEBUG - Could not retrieve artist id from database: Yvonne Catterfeld
+2017-01-17 12:06:28,627 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bob-Catley
+2017-01-17 12:06:28,702 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,702 - DEBUG - Could not retrieve artist id from database: Bob Catley
+2017-01-17 12:06:28,703 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Carolina-Liar
+2017-01-17 12:06:28,777 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,777 - DEBUG - Could not retrieve artist id from database: Carolina Liar
+2017-01-17 12:06:28,779 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Camper-Van-Beethoven
+2017-01-17 12:06:28,853 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,853 - DEBUG - Could not retrieve artist id from database: Camper Van Beethoven
+2017-01-17 12:06:28,855 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Metallica
+2017-01-17 12:06:28,929 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:28,929 - DEBUG - Could not retrieve artist id from database: Metallica
+2017-01-17 12:06:28,931 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Goran-Bregovi%C4%87
+2017-01-17 12:06:29,006 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,006 - DEBUG - Could not retrieve artist id from database: Goran Bregović
+2017-01-17 12:06:29,008 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adana-Twins
+2017-01-17 12:06:29,083 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,083 - DEBUG - Could not retrieve artist id from database: Adana Twins
+2017-01-17 12:06:29,084 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bigelf
+2017-01-17 12:06:29,160 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,160 - DEBUG - Could not retrieve artist id from database: Bigelf
+2017-01-17 12:06:29,161 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Big-Country
+2017-01-17 12:06:29,245 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,245 - DEBUG - Could not retrieve artist id from database: Big Country
+2017-01-17 12:06:29,246 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bif-Naked
+2017-01-17 12:06:29,317 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,317 - DEBUG - Could not retrieve artist id from database: Bif Naked
+2017-01-17 12:06:29,319 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Better-Than-Ezra
+2017-01-17 12:06:29,393 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,393 - DEBUG - Could not retrieve artist id from database: Better Than Ezra
+2017-01-17 12:06:29,394 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Loudness
+2017-01-17 12:06:29,469 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,469 - DEBUG - Could not retrieve artist id from database: Loudness
+2017-01-17 12:06:29,470 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Die-ANALphabeten
+2017-01-17 12:06:29,563 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,563 - DEBUG - Could not retrieve artist id from database: Die ANALphabeten
+2017-01-17 12:06:29,564 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atticus-Ross
+2017-01-17 12:06:29,638 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,639 - DEBUG - Could not retrieve artist id from database: Atticus Ross
+2017-01-17 12:06:29,640 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bedouin-Soundclash
+2017-01-17 12:06:29,714 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,714 - DEBUG - Could not retrieve artist id from database: Bedouin Soundclash
+2017-01-17 12:06:29,715 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Basement-Jaxx
+2017-01-17 12:06:29,790 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,790 - DEBUG - Could not retrieve artist id from database: Basement Jaxx
+2017-01-17 12:06:29,791 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bakermat
+2017-01-17 12:06:29,868 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,868 - DEBUG - Could not retrieve artist id from database: Bakermat
+2017-01-17 12:06:29,869 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Every-Avenue
+2017-01-17 12:06:29,943 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:29,943 - DEBUG - Could not retrieve artist id from database: Every Avenue
+2017-01-17 12:06:29,945 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Babylon-Bombs
+2017-01-17 12:06:30,076 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/dbff0c65-8b74-4239-a37b-633ab030ec3a?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:30,180 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 12:06:30,180 - DEBUG - No album covers found for artist Babylon Bombs
+2017-01-17 12:06:30,181 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Babyface
+2017-01-17 12:06:30,304 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/7fa62c0b-2c74-491e-a2a1-17c3b043f326?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:30,357 - DEBUG - 2 album covers found for artist Babyface
+2017-01-17 12:06:30,358 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Baby-Bash
+2017-01-17 12:06:30,483 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/1fe6717a-73b5-4e70-82c5-6b83a08c997d?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:30,564 - DEBUG - 2 album covers found for artist Baby Bash
+2017-01-17 12:06:30,565 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atomic-Rooster
+2017-01-17 12:06:30,756 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/5cf54b1a-831f-4cfc-b946-41131c463fc1?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:30,873 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:06:30,873 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:06:30,873 - DEBUG - 10 album covers found for artist Atomic Rooster
+2017-01-17 12:06:30,875 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marc-Anthony
+2017-01-17 12:06:31,037 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/25607613-aceb-445a-8519-83a2ee0f8402?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:31,086 - DEBUG - 3 album covers found for artist Marc Anthony
+2017-01-17 12:06:31,087 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anne-Marie
+2017-01-17 12:06:31,220 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/354bdd47-7813-40b3-861a-632d21d6bd0e?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:31,273 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 12:06:31,273 - DEBUG - No album covers found for artist Anne-Marie
+2017-01-17 12:06:31,274 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Testament
+2017-01-17 12:06:31,437 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/05106775-5d45-4131-aecc-1177f813ba11?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:31,555 - DEBUG - 19 album covers found for artist Testament
+2017-01-17 12:06:31,556 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Yngwie-J.-Malmsteen
+2017-01-17 12:06:31,728 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/8fa5d80d-37e8-4133-9d5c-6bad446c63f0?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:31,767 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:06:31,767 - DEBUG - 12 album covers found for artist Yngwie J. Malmsteen
+2017-01-17 12:06:31,768 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:American-Dog
+2017-01-17 12:06:31,894 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/4cddb593-0bcc-4d7c-99f1-be6da76b3714?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:32,000 - DEBUG - 1 album covers found for artist American Dog
+2017-01-17 12:06:32,001 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Aloha-From-Hell
+2017-01-17 12:06:32,167 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/1d30df4d-626e-43f8-96ae-94b11914fae0?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:06:32,219 - DEBUG - 1 album covers found for artist Aloha From Hell
+2017-01-17 12:06:32,220 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alle-Farben
+2017-01-17 12:06:32,294 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,294 - DEBUG - Could not retrieve artist id from database: Alle Farben
+2017-01-17 12:06:32,295 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AirDice
+2017-01-17 12:06:32,367 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,367 - DEBUG - Could not retrieve artist id from database: AirDice
+2017-01-17 12:06:32,369 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ailee
+2017-01-17 12:06:32,443 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,443 - DEBUG - Could not retrieve artist id from database: Ailee
+2017-01-17 12:06:32,445 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AGF/Delay
+2017-01-17 12:06:32,517 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,517 - DEBUG - Could not retrieve artist id from database: AGF/Delay
+2017-01-17 12:06:32,518 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adiemus
+2017-01-17 12:06:32,590 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,590 - DEBUG - Could not retrieve artist id from database: Adiemus
+2017-01-17 12:06:32,592 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3T
+2017-01-17 12:06:32,664 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,664 - DEBUG - Could not retrieve artist id from database: 3T
+2017-01-17 12:06:32,665 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Rush
+2017-01-17 12:06:32,739 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,739 - DEBUG - Could not retrieve artist id from database: Rush
+2017-01-17 12:06:32,740 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Guano-Padano
+2017-01-17 12:06:32,812 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,812 - DEBUG - Could not retrieve artist id from database: Guano Padano
+2017-01-17 12:06:32,814 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E3%83%95%E3%83%AA%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3
+2017-01-17 12:06:32,886 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:06:32,887 - DEBUG - Could not retrieve artist id from database: フリクション
+2017-01-17 12:47:12,989 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Beatles
+2017-01-17 12:47:13,280 - DEBUG - Artist already in library: The Beatles, b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d
+2017-01-17 12:47:13,281 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Y-%26-T
+2017-01-17 12:47:13,528 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/e773e9a3-cadd-41d2-a7e9-4ca097ae5a3f?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:13,588 - DEBUG - 16 album covers found for artist Y & T
+2017-01-17 12:47:13,590 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Wizzard
+2017-01-17 12:47:13,779 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/9a121283-e355-4741-8729-f4b84650ff78?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:13,829 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 12:47:13,829 - DEBUG - No album covers found for artist Wizzard
+2017-01-17 12:47:13,831 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fleetwood-Mac
+2017-01-17 12:47:14,055 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/bd13909f-1c29-4c27-a874-d4aaf27c5b1a?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:14,116 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:47:14,116 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:47:14,116 - DEBUG - 38 album covers found for artist Fleetwood Mac
+2017-01-17 12:47:14,117 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Thorinshield
+2017-01-17 12:47:14,279 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/e9d47cf1-b212-40d1-8515-6c8655860015?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:14,328 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 12:47:14,328 - DEBUG - No album covers found for artist Thorinshield
+2017-01-17 12:47:14,329 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Sandra
+2017-01-17 12:47:14,484 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/9809d784-037f-46e7-8d2d-7ecad897f355?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:14,543 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:47:14,543 - DEBUG - 20 album covers found for artist Sandra
+2017-01-17 12:47:14,545 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alan-Silvestri
+2017-01-17 12:47:14,782 - DEBUG - Artist already in library: Alan Silvestri, f4c53778-e48d-4da4-9ddd-cc007f715d64
+2017-01-17 12:47:14,783 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alva-Noto
+2017-01-17 12:47:14,930 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/48ec4bb6-47a6-4e2c-8287-7617464eb193?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:14,977 - DEBUG - 1 album covers found for artist Alva Noto
+2017-01-17 12:47:14,978 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Tina-Charles
+2017-01-17 12:47:15,176 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/93117a67-55b4-4b18-94c4-35c8a75fefc2?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:15,210 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 12:47:15,210 - DEBUG - No album covers found for artist Tina Charles
+2017-01-17 12:47:15,211 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anni-B.-Sweet
+2017-01-17 12:47:15,365 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/6a82f4bf-c956-4e7a-b626-cd569ee26c23?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:15,399 - DEBUG - 6 album covers found for artist Anni B. Sweet
+2017-01-17 12:47:15,401 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anna-Naklab
+2017-01-17 12:47:15,484 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:15,484 - DEBUG - Could not retrieve artist id from database: Anna Naklab
+2017-01-17 12:47:15,485 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Arch-Enemy
+2017-01-17 12:47:15,565 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:15,565 - DEBUG - Could not retrieve artist id from database: Arch Enemy
+2017-01-17 12:47:15,566 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Cat-Stevens
+2017-01-17 12:47:15,649 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:15,649 - DEBUG - Could not retrieve artist id from database: Cat Stevens
+2017-01-17 12:47:15,650 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lisa-Stansfield
+2017-01-17 12:47:15,732 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:15,732 - DEBUG - Could not retrieve artist id from database: Lisa Stansfield
+2017-01-17 12:47:15,733 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alvaro-Soler
+2017-01-17 12:47:15,817 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:15,817 - DEBUG - Could not retrieve artist id from database: Alvaro Soler
+2017-01-17 12:47:15,818 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marco-Beltrami
+2017-01-17 12:47:15,901 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:15,901 - DEBUG - Could not retrieve artist id from database: Marco Beltrami
+2017-01-17 12:47:15,902 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Snot
+2017-01-17 12:47:15,985 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:15,985 - DEBUG - Could not retrieve artist id from database: Snot
+2017-01-17 12:47:15,986 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Nancy-Sinatra
+2017-01-17 12:47:16,068 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,068 - DEBUG - Could not retrieve artist id from database: Nancy Sinatra
+2017-01-17 12:47:16,069 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:J%C3%B3hann-J%C3%B3hannsson
+2017-01-17 12:47:16,150 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,151 - DEBUG - Could not retrieve artist id from database: Jóhann Jóhannsson
+2017-01-17 12:47:16,152 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Howard-Shore
+2017-01-17 12:47:16,234 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,234 - DEBUG - Could not retrieve artist id from database: Howard Shore
+2017-01-17 12:47:16,236 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%B7%9D%E7%94%B0%E3%81%BE%E3%81%BF
+2017-01-17 12:47:16,319 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,320 - DEBUG - Could not retrieve artist id from database: 川田まみ
+2017-01-17 12:47:16,321 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:SAKEROCK
+2017-01-17 12:47:16,402 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,402 - DEBUG - Could not retrieve artist id from database: SAKEROCK
+2017-01-17 12:47:16,404 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joaqu%C3%ADn-Sabina
+2017-01-17 12:47:16,486 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,486 - DEBUG - Could not retrieve artist id from database: Joaquín Sabina
+2017-01-17 12:47:16,487 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Runaway-City
+2017-01-17 12:47:16,569 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,569 - DEBUG - Could not retrieve artist id from database: Runaway City
+2017-01-17 12:47:16,570 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3rd-Wish
+2017-01-17 12:47:16,652 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,652 - DEBUG - Could not retrieve artist id from database: 3rd Wish
+2017-01-17 12:47:16,653 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Redlight-King
+2017-01-17 12:47:16,736 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,736 - DEBUG - Could not retrieve artist id from database: Redlight King
+2017-01-17 12:47:16,737 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Queen
+2017-01-17 12:47:16,819 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,819 - DEBUG - Could not retrieve artist id from database: Queen
+2017-01-17 12:47:16,820 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Billy-Preston
+2017-01-17 12:47:16,903 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,903 - DEBUG - Could not retrieve artist id from database: Billy Preston
+2017-01-17 12:47:16,904 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Polar-Bear-Club
+2017-01-17 12:47:16,987 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:16,987 - DEBUG - Could not retrieve artist id from database: Polar Bear Club
+2017-01-17 12:47:16,989 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Platters
+2017-01-17 12:47:17,068 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,069 - DEBUG - Could not retrieve artist id from database: The Platters
+2017-01-17 12:47:17,070 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ante-Perry
+2017-01-17 12:47:17,152 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,152 - DEBUG - Could not retrieve artist id from database: Ante Perry
+2017-01-17 12:47:17,153 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Paper-Route
+2017-01-17 12:47:17,235 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,235 - DEBUG - Could not retrieve artist id from database: Paper Route
+2017-01-17 12:47:17,237 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Black-Lungs
+2017-01-17 12:47:17,318 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,319 - DEBUG - Could not retrieve artist id from database: Black Lungs
+2017-01-17 12:47:17,320 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:John-Ottman
+2017-01-17 12:47:17,402 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,402 - DEBUG - Could not retrieve artist id from database: John Ottman
+2017-01-17 12:47:17,404 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Orchids
+2017-01-17 12:47:17,485 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,485 - DEBUG - Could not retrieve artist id from database: The Orchids
+2017-01-17 12:47:17,486 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Borracho
+2017-01-17 12:47:17,567 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,568 - DEBUG - Could not retrieve artist id from database: Borracho
+2017-01-17 12:47:17,569 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M83
+2017-01-17 12:47:17,651 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,651 - DEBUG - Could not retrieve artist id from database: M83
+2017-01-17 12:47:17,652 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M.O
+2017-01-17 12:47:17,733 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,734 - DEBUG - Could not retrieve artist id from database: M.O
+2017-01-17 12:47:17,735 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anne-McCue
+2017-01-17 12:47:17,817 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,817 - DEBUG - Could not retrieve artist id from database: Anne McCue
+2017-01-17 12:47:17,819 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Matoma
+2017-01-17 12:47:17,911 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,911 - DEBUG - Could not retrieve artist id from database: Matoma
+2017-01-17 12:47:17,912 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marillion
+2017-01-17 12:47:17,993 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:17,993 - DEBUG - Could not retrieve artist id from database: Marillion
+2017-01-17 12:47:17,995 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mano-Negra
+2017-01-17 12:47:18,077 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,078 - DEBUG - Could not retrieve artist id from database: Mano Negra
+2017-01-17 12:47:18,079 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mango
+2017-01-17 12:47:18,162 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,162 - DEBUG - Could not retrieve artist id from database: Mango
+2017-01-17 12:47:18,163 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Taj-Mahal
+2017-01-17 12:47:18,246 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,246 - DEBUG - Could not retrieve artist id from database: Taj Mahal
+2017-01-17 12:47:18,247 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Madredeus
+2017-01-17 12:47:18,330 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,330 - DEBUG - Could not retrieve artist id from database: Madredeus
+2017-01-17 12:47:18,332 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Luis-Miguel
+2017-01-17 12:47:18,412 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,413 - DEBUG - Could not retrieve artist id from database: Luis Miguel
+2017-01-17 12:47:18,414 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Louisa-Johnson
+2017-01-17 12:47:18,495 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,495 - DEBUG - Could not retrieve artist id from database: Louisa Johnson
+2017-01-17 12:47:18,496 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Live
+2017-01-17 12:47:18,578 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,578 - DEBUG - Could not retrieve artist id from database: Live
+2017-01-17 12:47:18,580 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Litfiba
+2017-01-17 12:47:18,663 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,663 - DEBUG - Could not retrieve artist id from database: Litfiba
+2017-01-17 12:47:18,664 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ligabue
+2017-01-17 12:47:18,746 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,747 - DEBUG - Could not retrieve artist id from database: Ligabue
+2017-01-17 12:47:18,748 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Leftover-Cuties
+2017-01-17 12:47:18,832 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,832 - DEBUG - Could not retrieve artist id from database: Leftover Cuties
+2017-01-17 12:47:18,834 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Zara-Larsson
+2017-01-17 12:47:18,928 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:18,929 - DEBUG - Could not retrieve artist id from database: Zara Larsson
+2017-01-17 12:47:18,930 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M%C3%A4go-de-Oz
+2017-01-17 12:47:19,018 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,018 - DEBUG - Could not retrieve artist id from database: Mägo de Oz
+2017-01-17 12:47:19,020 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%96%9C%E5%A4%9A%E9%83%8E
+2017-01-17 12:47:19,103 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,104 - DEBUG - Could not retrieve artist id from database: 喜多郎
+2017-01-17 12:47:19,105 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Cyndi-Lauper
+2017-01-17 12:47:19,187 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,187 - DEBUG - Could not retrieve artist id from database: Cyndi Lauper
+2017-01-17 12:47:19,188 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Johnson
+2017-01-17 12:47:19,271 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,271 - DEBUG - Could not retrieve artist id from database: Andreas Johnson
+2017-01-17 12:47:19,272 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Al-Jarreau
+2017-01-17 12:47:19,354 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,354 - DEBUG - Could not retrieve artist id from database: Al Jarreau
+2017-01-17 12:47:19,355 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jarabe-de-Palo
+2017-01-17 12:47:19,436 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,436 - DEBUG - Could not retrieve artist id from database: Jarabe de Palo
+2017-01-17 12:47:19,437 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fo%E2%80%99xTails
+2017-01-17 12:47:19,519 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,520 - DEBUG - Could not retrieve artist id from database: Fo’xTails
+2017-01-17 12:47:19,521 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Axxis
+2017-01-17 12:47:19,602 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,602 - DEBUG - Could not retrieve artist id from database: Axxis
+2017-01-17 12:47:19,603 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dew-Scented
+2017-01-17 12:47:19,685 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,685 - DEBUG - Could not retrieve artist id from database: Dew-Scented
+2017-01-17 12:47:19,687 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lena-Horne
+2017-01-17 12:47:19,769 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,769 - DEBUG - Could not retrieve artist id from database: Lena Horne
+2017-01-17 12:47:19,771 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Rolling-Stones
+2017-01-17 12:47:19,853 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,853 - DEBUG - Could not retrieve artist id from database: The Rolling Stones
+2017-01-17 12:47:19,854 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alexandre-Desplat
+2017-01-17 12:47:19,942 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:19,942 - DEBUG - Could not retrieve artist id from database: Alexandre Desplat
+2017-01-17 12:47:19,943 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Kirk-Franklin
+2017-01-17 12:47:20,025 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,026 - DEBUG - Could not retrieve artist id from database: Kirk Franklin
+2017-01-17 12:47:20,027 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgia
+2017-01-17 12:47:20,110 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,110 - DEBUG - Could not retrieve artist id from database: Giorgia
+2017-01-17 12:47:20,111 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgio-Gaber
+2017-01-17 12:47:20,194 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,194 - DEBUG - Could not retrieve artist id from database: Giorgio Gaber
+2017-01-17 12:47:20,195 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Gabalier
+2017-01-17 12:47:20,276 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,276 - DEBUG - Could not retrieve artist id from database: Andreas Gabalier
+2017-01-17 12:47:20,277 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Journey
+2017-01-17 12:47:20,359 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,359 - DEBUG - Could not retrieve artist id from database: Journey
+2017-01-17 12:47:20,360 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andy-Fraser
+2017-01-17 12:47:20,443 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,443 - DEBUG - Could not retrieve artist id from database: Andy Fraser
+2017-01-17 12:47:20,445 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Silverchair
+2017-01-17 12:47:20,527 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,527 - DEBUG - Could not retrieve artist id from database: Silverchair
+2017-01-17 12:47:20,528 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ibrahim-Ferrer
+2017-01-17 12:47:20,612 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,612 - DEBUG - Could not retrieve artist id from database: Ibrahim Ferrer
+2017-01-17 12:47:20,614 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Family-of-the-Year
+2017-01-17 12:47:20,697 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,697 - DEBUG - Could not retrieve artist id from database: Family of the Year
+2017-01-17 12:47:20,698 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Van-Halen
+2017-01-17 12:47:20,781 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,782 - DEBUG - Could not retrieve artist id from database: Van Halen
+2017-01-17 12:47:20,783 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Abel-Korzeniowski
+2017-01-17 12:47:20,866 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,867 - DEBUG - Could not retrieve artist id from database: Abel Korzeniowski
+2017-01-17 12:47:20,868 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eruption
+2017-01-17 12:47:20,949 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:20,949 - DEBUG - Could not retrieve artist id from database: Eruption
+2017-01-17 12:47:20,951 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Asphyx
+2017-01-17 12:47:21,033 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,033 - DEBUG - Could not retrieve artist id from database: Asphyx
+2017-01-17 12:47:21,035 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Peking-Duk
+2017-01-17 12:47:21,117 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,117 - DEBUG - Could not retrieve artist id from database: Peking Duk
+2017-01-17 12:47:21,118 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Kent
+2017-01-17 12:47:21,199 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,200 - DEBUG - Could not retrieve artist id from database: Kent
+2017-01-17 12:47:21,201 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dr.-Hook
+2017-01-17 12:47:21,284 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,284 - DEBUG - Could not retrieve artist id from database: Dr. Hook
+2017-01-17 12:47:21,285 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eros-Ramazzotti
+2017-01-17 12:47:21,366 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,366 - DEBUG - Could not retrieve artist id from database: Eros Ramazzotti
+2017-01-17 12:47:21,367 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Santa-Esmeralda
+2017-01-17 12:47:21,450 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,450 - DEBUG - Could not retrieve artist id from database: Santa Esmeralda
+2017-01-17 12:47:21,451 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Willie-Dixon
+2017-01-17 12:47:21,535 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,536 - DEBUG - Could not retrieve artist id from database: Willie Dixon
+2017-01-17 12:47:21,537 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jesse-McCartney
+2017-01-17 12:47:21,619 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,619 - DEBUG - Could not retrieve artist id from database: Jesse McCartney
+2017-01-17 12:47:21,621 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Christopher-Cross
+2017-01-17 12:47:21,704 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,704 - DEBUG - Could not retrieve artist id from database: Christopher Cross
+2017-01-17 12:47:21,705 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Massacre
+2017-01-17 12:47:21,787 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,787 - DEBUG - Could not retrieve artist id from database: Massacre
+2017-01-17 12:47:21,789 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:James-Newton-Howard
+2017-01-17 12:47:21,871 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,871 - DEBUG - Could not retrieve artist id from database: James Newton Howard
+2017-01-17 12:47:21,872 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joy-Division
+2017-01-17 12:47:21,956 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:21,956 - DEBUG - Could not retrieve artist id from database: Joy Division
+2017-01-17 12:47:21,958 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Chuck-D
+2017-01-17 12:47:22,041 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,041 - DEBUG - Could not retrieve artist id from database: Chuck D
+2017-01-17 12:47:22,042 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anthrax
+2017-01-17 12:47:22,127 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,127 - DEBUG - Could not retrieve artist id from database: Anthrax
+2017-01-17 12:47:22,128 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Chefket
+2017-01-17 12:47:22,212 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,212 - DEBUG - Could not retrieve artist id from database: Chefket
+2017-01-17 12:47:22,213 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Charli-XCX
+2017-01-17 12:47:22,294 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,294 - DEBUG - Could not retrieve artist id from database: Charli XCX
+2017-01-17 12:47:22,296 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Chainsmokers
+2017-01-17 12:47:22,378 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,378 - DEBUG - Could not retrieve artist id from database: The Chainsmokers
+2017-01-17 12:47:22,380 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Yvonne-Catterfeld
+2017-01-17 12:47:22,462 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,462 - DEBUG - Could not retrieve artist id from database: Yvonne Catterfeld
+2017-01-17 12:47:22,463 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bob-Catley
+2017-01-17 12:47:22,546 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,547 - DEBUG - Could not retrieve artist id from database: Bob Catley
+2017-01-17 12:47:22,548 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Camper-Van-Beethoven
+2017-01-17 12:47:22,629 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,630 - DEBUG - Could not retrieve artist id from database: Camper Van Beethoven
+2017-01-17 12:47:22,631 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Metallica
+2017-01-17 12:47:22,713 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,713 - DEBUG - Could not retrieve artist id from database: Metallica
+2017-01-17 12:47:22,714 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Goran-Bregovi%C4%87
+2017-01-17 12:47:22,798 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,798 - DEBUG - Could not retrieve artist id from database: Goran Bregović
+2017-01-17 12:47:22,800 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adana-Twins
+2017-01-17 12:47:22,883 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,883 - DEBUG - Could not retrieve artist id from database: Adana Twins
+2017-01-17 12:47:22,885 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bigelf
+2017-01-17 12:47:22,966 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:22,967 - DEBUG - Could not retrieve artist id from database: Bigelf
+2017-01-17 12:47:22,968 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Big-Country
+2017-01-17 12:47:23,048 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:23,049 - DEBUG - Could not retrieve artist id from database: Big Country
+2017-01-17 12:47:23,050 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bif-Naked
+2017-01-17 12:47:23,200 - DEBUG - Artist already in library: Bif Naked, e9a639e2-3840-410a-bd6d-4e7bdb66734d
+2017-01-17 12:47:23,201 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Better-Than-Ezra
+2017-01-17 12:47:23,393 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/7986c185-d91d-4204-8ee2-eac5d503fe39?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:23,442 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:47:23,442 - DEBUG - 4 album covers found for artist Better Than Ezra
+2017-01-17 12:47:23,443 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Loudness
+2017-01-17 12:47:23,666 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/513b6df2-f44c-4484-b99d-97f79266cb4a?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:23,723 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:47:23,723 - DEBUG - 29 album covers found for artist Loudness
+2017-01-17 12:47:23,724 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Die-ANALphabeten
+2017-01-17 12:47:23,879 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/3b7f303b-a5cf-4696-a3ea-250637392a35?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:23,969 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 12:47:23,969 - DEBUG - No album covers found for artist Die ANALphabeten
+2017-01-17 12:47:23,971 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atticus-Ross
+2017-01-17 12:47:24,168 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/1fefa8b3-806b-4ab9-a066-66574b22aa16?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:24,273 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 12:47:24,273 - DEBUG - No album covers found for artist Atticus Ross
+2017-01-17 12:47:24,275 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Basement-Jaxx
+2017-01-17 12:47:24,481 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/28cbf94d-0700-4095-a188-37e373b069a7?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:24,518 - DEBUG - 10 album covers found for artist Basement Jaxx
+2017-01-17 12:47:24,520 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Every-Avenue
+2017-01-17 12:47:24,705 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/27cb81c2-0a39-444c-bd73-101c14393a4a?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:24,752 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 12:47:24,752 - DEBUG - No album covers found for artist Every Avenue
+2017-01-17 12:47:24,753 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atomic-Rooster
+2017-01-17 12:47:24,987 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/5cf54b1a-831f-4cfc-b946-41131c463fc1?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:25,034 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:47:25,035 - ERROR - Album without cover found. Ignoring.
+2017-01-17 12:47:25,035 - DEBUG - 10 album covers found for artist Atomic Rooster
+2017-01-17 12:47:25,036 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marc-Anthony
+2017-01-17 12:47:25,228 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/25607613-aceb-445a-8519-83a2ee0f8402?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:25,277 - DEBUG - 3 album covers found for artist Marc Anthony
+2017-01-17 12:47:25,278 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anne-Marie
+2017-01-17 12:47:25,446 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/354bdd47-7813-40b3-861a-632d21d6bd0e?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 12:47:25,484 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 12:47:25,484 - DEBUG - No album covers found for artist Anne-Marie
+2017-01-17 12:47:25,486 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Testament
+2017-01-17 12:47:25,568 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:25,568 - DEBUG - Could not retrieve artist id from database: Testament
+2017-01-17 12:47:25,570 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Yngwie-J.-Malmsteen
+2017-01-17 12:47:25,651 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:25,651 - DEBUG - Could not retrieve artist id from database: Yngwie J. Malmsteen
+2017-01-17 12:47:25,652 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:American-Dog
+2017-01-17 12:47:25,735 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:25,735 - DEBUG - Could not retrieve artist id from database: American Dog
+2017-01-17 12:47:25,736 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Aloha-From-Hell
+2017-01-17 12:47:25,817 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:25,817 - DEBUG - Could not retrieve artist id from database: Aloha From Hell
+2017-01-17 12:47:25,819 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alle-Farben
+2017-01-17 12:47:25,900 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:25,900 - DEBUG - Could not retrieve artist id from database: Alle Farben
+2017-01-17 12:47:25,901 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AirDice
+2017-01-17 12:47:25,983 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:25,983 - DEBUG - Could not retrieve artist id from database: AirDice
+2017-01-17 12:47:25,984 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ailee
+2017-01-17 12:47:26,067 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,067 - DEBUG - Could not retrieve artist id from database: Ailee
+2017-01-17 12:47:26,068 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AGF/Delay
+2017-01-17 12:47:26,153 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,153 - DEBUG - Could not retrieve artist id from database: AGF/Delay
+2017-01-17 12:47:26,154 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adiemus
+2017-01-17 12:47:26,236 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,236 - DEBUG - Could not retrieve artist id from database: Adiemus
+2017-01-17 12:47:26,237 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3T
+2017-01-17 12:47:26,319 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,319 - DEBUG - Could not retrieve artist id from database: 3T
+2017-01-17 12:47:26,320 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Rush
+2017-01-17 12:47:26,402 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,402 - DEBUG - Could not retrieve artist id from database: Rush
+2017-01-17 12:47:26,404 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Guano-Padano
+2017-01-17 12:47:26,487 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,487 - DEBUG - Could not retrieve artist id from database: Guano Padano
+2017-01-17 12:47:26,488 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E3%83%95%E3%83%AA%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3
+2017-01-17 12:47:26,571 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,571 - DEBUG - Could not retrieve artist id from database: フリクション
+2017-01-17 12:47:26,573 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:LArc%7Een%7ECiel
+2017-01-17 12:47:26,654 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 12:47:26,655 - DEBUG - Could not retrieve artist id from database: LArc~en~Ciel
+2017-01-17 12:47:26,964 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-1.png
+2017-01-17 12:47:27,562 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-2.png
+2017-01-17 12:47:28,274 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-3.png
+2017-01-17 12:47:28,882 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-4.png
+2017-01-17 12:47:29,437 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-5.png
+2017-01-17 12:47:29,869 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-6.png
+2017-01-17 12:47:30,348 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-7.png
+2017-01-17 12:47:30,843 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-8.png
+2017-01-17 12:47:31,515 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-9.png
+2017-01-17 12:47:32,006 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-10.png
+2017-01-17 12:47:32,487 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-11.png
+2017-01-17 12:47:33,159 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-12.png
+2017-01-17 12:47:33,739 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-13.png
+2017-01-17 12:47:34,228 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-14.png
+2017-01-17 12:47:34,883 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-15.png
+2017-01-17 12:47:35,469 - DEBUG - Album cover saved to J:\Mosaic\database\y-&-t-16.png
+2017-01-17 12:47:35,820 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-1.png
+2017-01-17 12:47:36,392 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-2.png
+2017-01-17 12:47:36,704 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-3.png
+2017-01-17 12:47:37,267 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-4.png
+2017-01-17 12:47:37,677 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-5.png
+2017-01-17 12:47:38,192 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-6.png
+2017-01-17 12:47:38,694 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-7.png
+2017-01-17 12:47:39,167 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-8.png
+2017-01-17 12:47:39,753 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-9.png
+2017-01-17 12:47:40,486 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-10.png
+2017-01-17 12:47:40,698 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-11.png
+2017-01-17 12:47:41,241 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-12.png
+2017-01-17 12:47:41,804 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-13.png
+2017-01-17 12:47:42,372 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-14.png
+2017-01-17 12:47:42,918 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-15.png
+2017-01-17 12:47:43,335 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-16.png
+2017-01-17 12:47:43,848 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-17.png
+2017-01-17 12:47:44,320 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-18.png
+2017-01-17 12:47:44,968 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-19.png
+2017-01-17 12:47:45,713 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-20.png
+2017-01-17 12:47:46,189 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-21.png
+2017-01-17 12:47:46,490 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-22.png
+2017-01-17 12:47:46,822 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-23.png
+2017-01-17 12:47:47,338 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-24.png
+2017-01-17 12:47:47,827 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-25.png
+2017-01-17 12:47:48,363 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-26.png
+2017-01-17 12:47:48,943 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-27.png
+2017-01-17 12:47:49,173 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-28.png
+2017-01-17 12:47:49,716 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-29.png
+2017-01-17 12:47:50,275 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-30.png
+2017-01-17 12:47:54,612 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-31.png
+2017-01-17 12:47:55,231 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-32.png
+2017-01-17 12:48:04,108 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-33.png
+2017-01-17 12:48:04,562 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-34.png
+2017-01-17 12:48:05,066 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-35.png
+2017-01-17 12:48:05,767 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-36.png
+2017-01-17 12:48:06,140 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-37.png
+2017-01-17 12:48:06,412 - DEBUG - Album cover saved to J:\Mosaic\database\fleetwood-mac-38.png
+2017-01-17 12:48:13,877 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-1.png
+2017-01-17 12:48:14,317 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-2.png
+2017-01-17 12:48:14,886 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-3.png
+2017-01-17 12:48:15,228 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-4.png
+2017-01-17 12:48:15,593 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-5.png
+2017-01-17 12:48:16,201 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-6.png
+2017-01-17 12:48:16,605 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-7.png
+2017-01-17 12:48:16,990 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-8.png
+2017-01-17 12:48:17,461 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-9.png
+2017-01-17 12:48:17,961 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-10.png
+2017-01-17 12:48:18,621 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-11.png
+2017-01-17 12:48:19,070 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-12.png
+2017-01-17 12:48:19,683 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-13.png
+2017-01-17 12:48:20,230 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-14.png
+2017-01-17 12:48:20,618 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-15.png
+2017-01-17 12:48:21,155 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-16.png
+2017-01-17 12:48:21,718 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-17.png
+2017-01-17 12:48:22,242 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-18.png
+2017-01-17 12:48:22,781 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-19.png
+2017-01-17 12:48:23,235 - DEBUG - Album cover saved to J:\Mosaic\database\sandra-20.png
+2017-01-17 12:48:23,400 - DEBUG - Album cover saved to J:\Mosaic\database\alva-noto-1.png
+2017-01-17 12:48:28,917 - DEBUG - Album cover saved to J:\Mosaic\database\anni-b.-sweet-1.png
+2017-01-17 12:48:29,437 - DEBUG - Album cover saved to J:\Mosaic\database\anni-b.-sweet-2.png
+2017-01-17 12:48:32,066 - DEBUG - Album cover saved to J:\Mosaic\database\anni-b.-sweet-3.png
+2017-01-17 12:48:32,432 - DEBUG - Album cover saved to J:\Mosaic\database\anni-b.-sweet-4.png
+2017-01-17 12:48:35,301 - DEBUG - Album cover saved to J:\Mosaic\database\anni-b.-sweet-5.png
+2017-01-17 12:48:35,912 - DEBUG - Album cover saved to J:\Mosaic\database\anni-b.-sweet-6.png
+2017-01-17 12:48:36,368 - DEBUG - Album cover saved to J:\Mosaic\database\better-than-ezra-1.png
+2017-01-17 12:48:36,808 - DEBUG - Album cover saved to J:\Mosaic\database\better-than-ezra-2.png
+2017-01-17 12:48:37,431 - DEBUG - Album cover saved to J:\Mosaic\database\better-than-ezra-3.png
+2017-01-17 12:48:38,181 - DEBUG - Album cover saved to J:\Mosaic\database\better-than-ezra-4.png
+2017-01-17 12:48:38,781 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-1.png
+2017-01-17 12:48:39,328 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-2.png
+2017-01-17 12:48:39,805 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-3.png
+2017-01-17 12:48:40,142 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-4.png
+2017-01-17 12:48:40,633 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-5.png
+2017-01-17 12:48:41,137 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-6.png
+2017-01-17 12:48:41,737 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-7.png
+2017-01-17 12:48:42,188 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-8.png
+2017-01-17 12:48:42,702 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-9.png
+2017-01-17 12:48:43,325 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-10.png
+2017-01-17 12:48:43,751 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-11.png
+2017-01-17 12:48:44,231 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-12.png
+2017-01-17 12:48:44,775 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-13.png
+2017-01-17 12:48:45,255 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-14.png
+2017-01-17 12:48:45,735 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-15.png
+2017-01-17 12:48:46,260 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-16.png
+2017-01-17 12:48:46,890 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-17.png
+2017-01-17 12:48:47,200 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-18.png
+2017-01-17 12:48:47,767 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-19.png
+2017-01-17 12:48:48,151 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-20.png
+2017-01-17 12:48:48,826 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-21.png
+2017-01-17 12:48:49,425 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-22.png
+2017-01-17 12:48:49,941 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-23.png
+2017-01-17 12:48:53,167 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-24.png
+2017-01-17 12:48:53,587 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-25.png
+2017-01-17 12:48:54,043 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-26.png
+2017-01-17 12:48:54,532 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-27.png
+2017-01-17 12:48:54,975 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-28.png
+2017-01-17 12:48:55,423 - DEBUG - Album cover saved to J:\Mosaic\database\loudness-29.png
+2017-01-17 12:48:55,984 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-1.png
+2017-01-17 12:48:56,458 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-2.png
+2017-01-17 12:48:57,072 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-3.png
+2017-01-17 12:48:57,841 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-4.png
+2017-01-17 12:48:58,364 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-5.png
+2017-01-17 12:48:59,049 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-6.png
+2017-01-17 12:48:59,484 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-7.png
+2017-01-17 12:49:00,103 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-8.png
+2017-01-17 12:49:00,565 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-9.png
+2017-01-17 12:49:00,849 - DEBUG - Album cover saved to J:\Mosaic\database\basement-jaxx-10.png
+2017-01-17 12:49:01,294 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-1.png
+2017-01-17 12:49:01,736 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-2.png
+2017-01-17 12:49:02,372 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-3.png
+2017-01-17 12:49:13,344 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-4.png
+2017-01-17 12:49:13,756 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-5.png
+2017-01-17 12:49:14,287 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-6.png
+2017-01-17 12:49:15,044 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-7.png
+2017-01-17 12:49:15,508 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-8.png
+2017-01-17 12:49:15,995 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-9.png
+2017-01-17 12:49:24,293 - DEBUG - Album cover saved to J:\Mosaic\database\atomic-rooster-10.png
+2017-01-17 12:49:24,614 - DEBUG - Album cover saved to J:\Mosaic\database\marc-anthony-1.png
+2017-01-17 12:49:25,152 - DEBUG - Album cover saved to J:\Mosaic\database\marc-anthony-2.png
+2017-01-17 12:49:25,422 - DEBUG - Album cover saved to J:\Mosaic\database\marc-anthony-3.png
+2017-01-17 12:49:25,429 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:25,430 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:25,803 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-1.png: #1b170d, #19150c, #16140e, #16140f
+2017-01-17 12:49:25,803 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:25,803 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:49:25,803 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:25,803 - DEBUG - Compression method 0
+2017-01-17 12:49:25,804 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:49:26,923 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-2.png: #4f222a, #832222, #352939, #5b1f2e
+2017-01-17 12:49:26,923 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:26,923 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:28,524 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-3.png: #4b4c63, #4d4151, #684950, #66454a
+2017-01-17 12:49:28,524 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:28,524 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:30,526 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-4.png: #524f64, #585567, #756382, #605c7e
+2017-01-17 12:49:30,527 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:30,527 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:49:30,527 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:30,527 - DEBUG - Compression method 0
+2017-01-17 12:49:30,527 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:49:32,378 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-5.png: #803b24, #73492a, #815340, #764535
+2017-01-17 12:49:32,378 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:32,379 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:33,177 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-6.png: #2b2828, #272218, #857c78, #423b3a
+2017-01-17 12:49:33,178 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:33,178 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:49:33,178 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:33,178 - DEBUG - Compression method 0
+2017-01-17 12:49:33,178 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:49:33,912 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-7.png: #3c4393, #454878, #160e0d, #030203
+2017-01-17 12:49:33,912 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:33,912 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:34,811 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-8.png: #5e2d2c, #432527, #7f4946, #49292b
+2017-01-17 12:49:34,812 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:34,812 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:49:34,812 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:34,812 - DEBUG - Compression method 0
+2017-01-17 12:49:34,812 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:49:36,290 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-9.png: #8a3e27, #43180b, #a75448, #372226
+2017-01-17 12:49:36,290 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:36,290 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:36,849 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-10.png: #2e2522, #302924, #23211e, #1d1c1b
+2017-01-17 12:49:36,849 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:36,850 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:37,710 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-11.png: #462129, #4d4a4a, #441a24, #4f4d4d
+2017-01-17 12:49:37,710 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:37,710 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:38,502 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-12.png: #6c1e0f, #4d1b11, #551d08, #401008
+2017-01-17 12:49:38,503 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:38,503 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:49:38,503 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:38,503 - DEBUG - Compression method 0
+2017-01-17 12:49:38,503 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:49:39,982 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-13.png: #4e2e19, #55381d, #55210e, #5d2016
+2017-01-17 12:49:39,982 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:39,982 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:41,282 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-14.png: #423032, #3e2d2e, #756e74, #695055
+2017-01-17 12:49:41,283 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:41,283 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:49:41,283 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:41,283 - DEBUG - Compression method 0
+2017-01-17 12:49:41,283 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:49:41,798 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-15.png: #ababb8, #5e5e78, #b2b1be, #636379
+2017-01-17 12:49:41,798 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:41,798 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:43,016 - DEBUG - Colors got from J:\Mosaic\database\y-&-t-16.png: #462a20, #3a261d, #723b42, #5a3532
+2017-01-17 12:49:43,017 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:43,017 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:43,747 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-1.png: #403e3e, #333233, #413431, #332a24
+2017-01-17 12:49:43,748 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:43,748 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:49:43,748 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:43,748 - DEBUG - Compression method 0
+2017-01-17 12:49:43,748 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:49:44,576 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-2.png: #eee8de, #e2ddd1, #e4e1d6, #b5b1ab
+2017-01-17 12:49:44,577 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:44,577 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:44,789 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-3.png: #74733a, #8f8d4f, #817f4a, #747339
+2017-01-17 12:49:44,790 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:44,790 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:45,868 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-4.png: #1d3f58, #112b48, #20343e, #4d5952
+2017-01-17 12:49:45,869 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:45,869 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:46,349 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-5.png: #3e5a91, #3b568a, #44619e, #3f588d
+2017-01-17 12:49:46,349 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:46,350 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:47,985 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-6.png: #545854, #5e5852, #6c645c, #6a6a6e
+2017-01-17 12:49:47,985 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:47,985 - DEBUG - STREAM b'iCCP' 41 8467
+2017-01-17 12:49:47,985 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:47,985 - DEBUG - Compression method 0
+2017-01-17 12:49:47,985 - DEBUG - STREAM b'IDAT' 8520 65536
+2017-01-17 12:49:48,883 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-7.png: #baa690, #c5bba0, #8f7967, #bcb090
+2017-01-17 12:49:48,883 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:48,884 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:49,519 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-8.png: #6e6961, #58554f, #3f413c, #7d7e76
+2017-01-17 12:49:49,519 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:49,519 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:50,213 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-9.png: #30311b, #31331d, #101307, #323615
+2017-01-17 12:49:50,213 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:50,213 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:51,015 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-10.png: #c4bebc, #b5ada6, #c1bdbd, #c7c1bf
+2017-01-17 12:49:51,015 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:51,015 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:51,126 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-11.png: #fcfcfc, #fefefe, #ffffff, #e4dfdb
+2017-01-17 12:49:51,126 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:51,126 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:52,978 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-12.png: #c4ae67, #d1b977, #927b4b, #c0ac68
+2017-01-17 12:49:52,978 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:52,978 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:54,097 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-13.png: #522f26, #502e25, #6c3028, #8e543c
+2017-01-17 12:49:54,098 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:54,098 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:55,657 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-14.png: #c6a269, #c6b363, #b49e79, #949468
+2017-01-17 12:49:55,657 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:55,657 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:57,421 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-15.png: #c6a17b, #c7976a, #9f9375, #826f4c
+2017-01-17 12:49:57,421 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:57,421 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:49:57,421 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:49:57,421 - DEBUG - Compression method 0
+2017-01-17 12:49:57,421 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:49:57,893 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-16.png: #2c1e16, #1f1915, #141110, #312117
+2017-01-17 12:49:57,893 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:57,893 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:49:59,091 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-17.png: #a59186, #a6968a, #8c725d, #7d6252
+2017-01-17 12:49:59,091 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:49:59,091 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:00,578 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-18.png: #7d866c, #242a27, #555c55, #473e3b
+2017-01-17 12:50:00,579 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:00,579 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:01,808 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-19.png: #4aa1a7, #60cfda, #899a8d, #8ea8a1
+2017-01-17 12:50:01,808 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:01,808 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:02,775 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-20.png: #54789a, #5a7a99, #4e5f7b, #4b586d
+2017-01-17 12:50:02,776 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:02,776 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:03,212 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-21.png: #928b64, #c3bd88, #868058, #9c9b68
+2017-01-17 12:50:03,212 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:03,212 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:03,272 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-22.png: #bfbfbf, #cdcdcd, #cacaca, #c2c2c2
+2017-01-17 12:50:03,273 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:03,273 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:03,273 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:03,273 - DEBUG - Compression method 0
+2017-01-17 12:50:03,273 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:03,586 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-23.png: #c1c1a6, #d5d6b5, #b5b59a, #babba1
+2017-01-17 12:50:03,587 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:03,587 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:04,338 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-24.png: #7594b2, #90b5d4, #6f8fa1, #749fc0
+2017-01-17 12:50:04,339 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:04,339 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:05,282 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-25.png: #5383a5, #5b626d, #99794b, #8b5021
+2017-01-17 12:50:05,282 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:05,283 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:05,283 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:05,283 - DEBUG - Compression method 0
+2017-01-17 12:50:05,283 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:06,526 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-26.png: #392c29, #6a5d64, #7b676a, #7d665e
+2017-01-17 12:50:06,526 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:06,527 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:06,939 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-27.png: #becfb7, #b0c1a9, #b5cdb8, #adc4af
+2017-01-17 12:50:06,939 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:06,939 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:07,111 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-28.png: #dc8e6b, #dc8d6a, #db8b67, #db8b67
+2017-01-17 12:50:07,111 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:07,111 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:07,111 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:07,111 - DEBUG - Compression method 0
+2017-01-17 12:50:07,111 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:08,824 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-29.png: #766957, #847861, #905949, #86614a
+2017-01-17 12:50:08,824 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:08,824 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:10,500 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-30.png: #cdcdbf, #a4a6a8, #ddcfbf, #be9f9b
+2017-01-17 12:50:10,501 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:10,501 - DEBUG - STREAM b'iCCP' 41 2628
+2017-01-17 12:50:10,501 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:10,501 - DEBUG - Compression method 0
+2017-01-17 12:50:10,501 - DEBUG - STREAM b'IDAT' 2681 65536
+2017-01-17 12:50:11,013 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-31.png: #141010, #120e0e, #4c3424, #4e3629
+2017-01-17 12:50:11,013 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:11,013 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:12,101 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-32.png: #c6bfba, #beb8af, #ada69d, #c3baaa
+2017-01-17 12:50:12,101 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:12,102 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:12,740 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-33.png: #443836, #3c302d, #3d3c39, #302f2c
+2017-01-17 12:50:12,741 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:12,741 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:13,562 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-34.png: #c0a168, #c6a86d, #7d645b, #725f5a
+2017-01-17 12:50:13,563 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:13,563 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:14,032 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-35.png: #4c1213, #43292b, #142224, #7eaaab
+2017-01-17 12:50:14,032 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:14,032 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:14,416 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-36.png: #404035, #3a3930, #33332a, #33332b
+2017-01-17 12:50:14,417 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:14,417 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:14,607 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-37.png: #f2e9e8, #f2eae9, #a89a9a, #b0a3a3
+2017-01-17 12:50:14,607 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:14,607 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:14,946 - DEBUG - Colors got from J:\Mosaic\database\fleetwood-mac-38.png: #100c0f, #1a161a, #211b1b, #181215
+2017-01-17 12:50:14,947 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:14,947 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:15,478 - DEBUG - Colors got from J:\Mosaic\database\sandra-1.png: #bfa8a3, #d3d4d3, #e3eae6, #e5ded9
+2017-01-17 12:50:15,478 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:15,479 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:17,301 - DEBUG - Colors got from J:\Mosaic\database\sandra-2.png: #9d8579, #a48472, #9f8673, #a0826e
+2017-01-17 12:50:17,302 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:17,302 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:18,641 - DEBUG - Colors got from J:\Mosaic\database\sandra-3.png: #643630, #65302e, #663d39, #4a2725
+2017-01-17 12:50:18,641 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:18,642 - DEBUG - STREAM b'iCCP' 41 284
+2017-01-17 12:50:18,642 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:18,642 - DEBUG - Compression method 0
+2017-01-17 12:50:18,642 - DEBUG - STREAM b'IDAT' 337 65536
+2017-01-17 12:50:18,960 - DEBUG - Colors got from J:\Mosaic\database\sandra-4.png: #141720, #17141d, #0a0e13, #0a0e13
+2017-01-17 12:50:18,960 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:18,960 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:19,484 - DEBUG - Colors got from J:\Mosaic\database\sandra-5.png: #b6b4a2, #a4a396, #afb4a6, #9fa19a
+2017-01-17 12:50:19,484 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:19,484 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:19,484 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:19,484 - DEBUG - Compression method 0
+2017-01-17 12:50:19,485 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:20,652 - DEBUG - Colors got from J:\Mosaic\database\sandra-6.png: #716653, #8c795c, #9a876d, #b5a281
+2017-01-17 12:50:20,652 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:20,652 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:20,652 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:20,652 - DEBUG - Compression method 0
+2017-01-17 12:50:20,652 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:21,091 - DEBUG - Colors got from J:\Mosaic\database\sandra-7.png: #d7d4d2, #e3cbcb, #dad5d2, #e8d0d0
+2017-01-17 12:50:21,091 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:21,092 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:21,815 - DEBUG - Colors got from J:\Mosaic\database\sandra-8.png: #e2d7d7, #efe9e5, #e3d2cc, #dfcec5
+2017-01-17 12:50:21,815 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:21,815 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:21,815 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:21,815 - DEBUG - Compression method 0
+2017-01-17 12:50:21,816 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:22,281 - DEBUG - Colors got from J:\Mosaic\database\sandra-9.png: #1b1614, #17100e, #572b27, #251c17
+2017-01-17 12:50:22,282 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:22,282 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:22,282 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:22,282 - DEBUG - Compression method 0
+2017-01-17 12:50:22,282 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:23,472 - DEBUG - Colors got from J:\Mosaic\database\sandra-10.png: #8aa0b5, #8e9eb7, #b9bec9, #c5c8cf
+2017-01-17 12:50:23,472 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:23,472 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:23,473 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:23,473 - DEBUG - Compression method 0
+2017-01-17 12:50:23,473 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:23,949 - DEBUG - Colors got from J:\Mosaic\database\sandra-11.png: #616f4f, #245341, #383728, #234f3d
+2017-01-17 12:50:23,949 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:23,950 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:25,451 - DEBUG - Colors got from J:\Mosaic\database\sandra-12.png: #7e7474, #7e7776, #8f898d, #7c7f8a
+2017-01-17 12:50:25,451 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:25,451 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:26,554 - DEBUG - Colors got from J:\Mosaic\database\sandra-13.png: #dec0a1, #f0e4cf, #e9d1b9, #eedfca
+2017-01-17 12:50:26,554 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:26,554 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:26,554 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:26,554 - DEBUG - Compression method 0
+2017-01-17 12:50:26,555 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:26,956 - DEBUG - Colors got from J:\Mosaic\database\sandra-14.png: #f0e5a4, #bcafa2, #d1c266, #655647
+2017-01-17 12:50:26,956 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:26,956 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:27,852 - DEBUG - Colors got from J:\Mosaic\database\sandra-15.png: #aeb6be, #abb4c1, #9a9da1, #a3a6ac
+2017-01-17 12:50:27,852 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:27,852 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:28,675 - DEBUG - Colors got from J:\Mosaic\database\sandra-16.png: #5c5157, #827479, #534a4e, #7c7377
+2017-01-17 12:50:28,675 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:28,675 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:28,676 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:28,676 - DEBUG - Compression method 0
+2017-01-17 12:50:28,676 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:29,775 - DEBUG - Colors got from J:\Mosaic\database\sandra-17.png: #b8bca1, #d3d4af, #97a085, #9aa084
+2017-01-17 12:50:29,775 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:29,775 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:29,775 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:29,775 - DEBUG - Compression method 0
+2017-01-17 12:50:29,775 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:50:30,281 - DEBUG - Colors got from J:\Mosaic\database\sandra-18.png: #23231c, #20221a, #2d2f26, #303024
+2017-01-17 12:50:30,282 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:30,282 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:31,167 - DEBUG - Colors got from J:\Mosaic\database\sandra-19.png: #bca79c, #c6b0a7, #9b9999, #999898
+2017-01-17 12:50:31,168 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:31,168 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:32,130 - DEBUG - Colors got from J:\Mosaic\database\sandra-20.png: #c89343, #855e32, #a5866a, #9c816a
+2017-01-17 12:50:32,131 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:32,131 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:50:32,131 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:32,131 - DEBUG - Compression method 0
+2017-01-17 12:50:32,131 - DEBUG - STREAM b'IDAT' 2661 11766
+2017-01-17 12:50:32,158 - DEBUG - Colors got from J:\Mosaic\database\alva-noto-1.png: #838383, #868686, #dadada, #dbdbdb
+2017-01-17 12:50:32,159 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:32,159 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:32,159 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:32,159 - DEBUG - Compression method 0
+2017-01-17 12:50:32,159 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:32,464 - DEBUG - Colors got from J:\Mosaic\database\anni-b.-sweet-1.png: #cfd4df, #d1ddea, #c59d99, #c8b1b3
+2017-01-17 12:50:32,464 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:32,464 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:32,464 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:32,464 - DEBUG - Compression method 0
+2017-01-17 12:50:32,464 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:32,774 - DEBUG - Colors got from J:\Mosaic\database\anni-b.-sweet-2.png: #d9dedd, #f5eeec, #838a8a, #afabab
+2017-01-17 12:50:32,774 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:32,774 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:32,774 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:32,774 - DEBUG - Compression method 0
+2017-01-17 12:50:32,774 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:33,359 - DEBUG - Colors got from J:\Mosaic\database\anni-b.-sweet-3.png: #f3ecdb, #ede9d7, #e0ceb8, #e7d6c0
+2017-01-17 12:50:33,360 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:33,360 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:33,360 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:33,360 - DEBUG - Compression method 0
+2017-01-17 12:50:33,360 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:34,211 - DEBUG - Colors got from J:\Mosaic\database\anni-b.-sweet-4.png: #e1d8de, #f0eaee, #b6a1b1, #ebe4e5
+2017-01-17 12:50:34,211 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:34,212 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:34,212 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:34,212 - DEBUG - Compression method 0
+2017-01-17 12:50:34,212 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:35,122 - DEBUG - Colors got from J:\Mosaic\database\anni-b.-sweet-5.png: #e2dbd4, #f1e9e7, #aca896, #d4cfbb
+2017-01-17 12:50:35,122 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:35,122 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:50:35,122 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:50:35,122 - DEBUG - Compression method 0
+2017-01-17 12:50:35,122 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:50:36,646 - DEBUG - Colors got from J:\Mosaic\database\anni-b.-sweet-6.png: #ddb192, #5c465d, #746352, #272a38
+2017-01-17 12:50:36,646 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:36,646 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:37,459 - DEBUG - Colors got from J:\Mosaic\database\better-than-ezra-1.png: #64595b, #65575b, #52494a, #605457
+2017-01-17 12:50:37,460 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:37,460 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:39,099 - DEBUG - Colors got from J:\Mosaic\database\better-than-ezra-2.png: #b6804e, #967658, #9b7161, #81736e
+2017-01-17 12:50:39,099 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:39,100 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:39,622 - DEBUG - Colors got from J:\Mosaic\database\better-than-ezra-3.png: #267cb6, #217ab7, #1d79b9, #217bb8
+2017-01-17 12:50:39,622 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:39,622 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:41,385 - DEBUG - Colors got from J:\Mosaic\database\better-than-ezra-4.png: #601e34, #551f38, #71193b, #742b48
+2017-01-17 12:50:41,385 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:41,385 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:42,751 - DEBUG - Colors got from J:\Mosaic\database\loudness-1.png: #574a64, #423a67, #4c3e68, #453754
+2017-01-17 12:50:42,751 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:42,751 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:44,516 - DEBUG - Colors got from J:\Mosaic\database\loudness-2.png: #9c363d, #5c2840, #a0554a, #9f4d44
+2017-01-17 12:50:44,517 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:44,517 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:45,902 - DEBUG - Colors got from J:\Mosaic\database\loudness-3.png: #8998a0, #8c9ca8, #a6b2ba, #a6b4be
+2017-01-17 12:50:45,902 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:45,902 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:46,584 - DEBUG - Colors got from J:\Mosaic\database\loudness-4.png: #511b16, #532b12, #3c110c, #44150c
+2017-01-17 12:50:46,584 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:46,584 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:47,943 - DEBUG - Colors got from J:\Mosaic\database\loudness-5.png: #7e403a, #81413a, #472221, #492524
+2017-01-17 12:50:47,943 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:47,943 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:49,854 - DEBUG - Colors got from J:\Mosaic\database\loudness-6.png: #8f7b65, #796554, #a59884, #8a7c6d
+2017-01-17 12:50:49,854 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:49,854 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:51,489 - DEBUG - Colors got from J:\Mosaic\database\loudness-7.png: #6c4a3c, #6a616b, #704c24, #432e23
+2017-01-17 12:50:51,489 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:51,489 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:53,485 - DEBUG - Colors got from J:\Mosaic\database\loudness-8.png: #5f4e52, #4c4346, #7a3c3e, #6b3e48
+2017-01-17 12:50:53,485 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:53,485 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:54,242 - DEBUG - Colors got from J:\Mosaic\database\loudness-9.png: #242b1c, #222c1f, #383b33, #343830
+2017-01-17 12:50:54,243 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:54,243 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:55,961 - DEBUG - Colors got from J:\Mosaic\database\loudness-10.png: #de7d28, #d56b28, #6a4a2f, #77572b
+2017-01-17 12:50:55,961 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:55,961 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:56,901 - DEBUG - Colors got from J:\Mosaic\database\loudness-11.png: #6d4d54, #51363b, #4d3f41, #251e22
+2017-01-17 12:50:56,902 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:56,902 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:58,956 - DEBUG - Colors got from J:\Mosaic\database\loudness-12.png: #af7a78, #a36e6a, #805f57, #7c544d
+2017-01-17 12:50:58,957 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:58,957 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:50:59,986 - DEBUG - Colors got from J:\Mosaic\database\loudness-13.png: #c08783, #bd8783, #cc8f88, #cc9089
+2017-01-17 12:50:59,986 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:50:59,986 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:02,040 - DEBUG - Colors got from J:\Mosaic\database\loudness-14.png: #574538, #5f4e45, #59453b, #5d2e27
+2017-01-17 12:51:02,040 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:02,040 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:03,401 - DEBUG - Colors got from J:\Mosaic\database\loudness-15.png: #2f3e57, #414244, #283556, #444957
+2017-01-17 12:51:03,402 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:03,402 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:05,193 - DEBUG - Colors got from J:\Mosaic\database\loudness-16.png: #3f2e4b, #3f2d4a, #43353e, #42353f
+2017-01-17 12:51:05,193 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:05,193 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:06,752 - DEBUG - Colors got from J:\Mosaic\database\loudness-17.png: #a64a2e, #9d462b, #b44f2b, #ad4f2d
+2017-01-17 12:51:06,753 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:06,753 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:07,348 - DEBUG - Colors got from J:\Mosaic\database\loudness-18.png: #a67778, #a77c7d, #d67578, #d57677
+2017-01-17 12:51:07,349 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:07,349 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:08,914 - DEBUG - Colors got from J:\Mosaic\database\loudness-19.png: #8e4d3e, #8f4331, #6c3525, #9d3f25
+2017-01-17 12:51:08,914 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:08,914 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:09,925 - DEBUG - Colors got from J:\Mosaic\database\loudness-20.png: #d3b920, #cfb121, #91880c, #898210
+2017-01-17 12:51:09,926 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:09,926 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:11,351 - DEBUG - Colors got from J:\Mosaic\database\loudness-21.png: #b65724, #872120, #813b22, #6b2423
+2017-01-17 12:51:11,351 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:11,351 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:12,725 - DEBUG - Colors got from J:\Mosaic\database\loudness-22.png: #b45553, #ad444e, #d57360, #c66062
+2017-01-17 12:51:12,725 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:12,725 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:14,899 - DEBUG - Colors got from J:\Mosaic\database\loudness-23.png: #4c453c, #575145, #4b483f, #544e41
+2017-01-17 12:51:14,899 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:14,900 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:16,099 - DEBUG - Colors got from J:\Mosaic\database\loudness-24.png: #5c3139, #57343b, #bf3139, #be3a42
+2017-01-17 12:51:16,099 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:16,099 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:51:16,099 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:51:16,099 - DEBUG - Compression method 0
+2017-01-17 12:51:16,099 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:51:16,995 - DEBUG - Colors got from J:\Mosaic\database\loudness-25.png: #2a1b18, #2e1917, #4d3628, #301713
+2017-01-17 12:51:16,995 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:16,995 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:17,535 - DEBUG - Colors got from J:\Mosaic\database\loudness-26.png: #645c63, #665d60, #574953, #57494c
+2017-01-17 12:51:17,535 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:17,535 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:18,587 - DEBUG - Colors got from J:\Mosaic\database\loudness-27.png: #27242d, #484042, #665857, #7c645d
+2017-01-17 12:51:18,588 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:18,588 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:19,235 - DEBUG - Colors got from J:\Mosaic\database\loudness-28.png: #3f3938, #3f3938, #141112, #191516
+2017-01-17 12:51:19,235 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:19,235 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:20,471 - DEBUG - Colors got from J:\Mosaic\database\loudness-29.png: #d98418, #d87317, #de841b, #d2711b
+2017-01-17 12:51:20,471 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:20,471 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:21,880 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-1.png: #af6445, #9b5a41, #7e4635, #754032
+2017-01-17 12:51:21,880 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:21,880 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:22,994 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-2.png: #ebd9ce, #e5ccbc, #ccba9a, #cdbdaf
+2017-01-17 12:51:22,994 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:22,994 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:23,928 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-3.png: #ba824c, #b88b4d, #b67c42, #b48143
+2017-01-17 12:51:23,929 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:23,929 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:25,548 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-4.png: #bf9956, #bf9652, #ea9453, #e88c4f
+2017-01-17 12:51:25,548 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:25,548 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:51:25,548 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:51:25,548 - DEBUG - Compression method 0
+2017-01-17 12:51:25,549 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:51:27,253 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-5.png: #6e544b, #8f776e, #766057, #604b45
+2017-01-17 12:51:27,253 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:27,253 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:28,742 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-6.png: #b19467, #cfb375, #ae8580, #a4907e
+2017-01-17 12:51:28,742 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:28,742 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:30,064 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-7.png: #935d5a, #4d483d, #7f524d, #7e705c
+2017-01-17 12:51:30,064 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:30,064 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:31,250 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-8.png: #bb9996, #b39193, #a25f61, #7f565e
+2017-01-17 12:51:31,250 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:31,250 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:32,644 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-9.png: #93a7bc, #8b99a7, #6f6461, #846f66
+2017-01-17 12:51:32,644 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:32,644 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:33,174 - DEBUG - Colors got from J:\Mosaic\database\basement-jaxx-10.png: #dbdfe2, #d7dbdf, #c1cbd1, #cbd4d8
+2017-01-17 12:51:33,175 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:33,175 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:34,670 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-1.png: #5c3a33, #3e4653, #7e736b, #5a5250
+2017-01-17 12:51:34,671 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:34,671 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:36,166 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-2.png: #4d3434, #65524f, #69504a, #58443c
+2017-01-17 12:51:36,166 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:36,166 - DEBUG - STREAM b'iCCP' 41 2609
+2017-01-17 12:51:36,166 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:51:36,166 - DEBUG - Compression method 0
+2017-01-17 12:51:36,167 - DEBUG - STREAM b'IDAT' 2662 65536
+2017-01-17 12:51:37,146 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-3.png: #b2bbb0, #beccc2, #c5c5be, #d2d1ca
+2017-01-17 12:51:37,146 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:37,146 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:38,370 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-4.png: #5b636c, #4d5666, #4d5a6c, #4e5767
+2017-01-17 12:51:38,370 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:38,370 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:39,562 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-5.png: #4a301e, #644327, #4d331d, #563c23
+2017-01-17 12:51:39,563 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:39,563 - DEBUG - STREAM b'iCCP' 41 2590
+2017-01-17 12:51:39,563 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:51:39,563 - DEBUG - Compression method 0
+2017-01-17 12:51:39,563 - DEBUG - STREAM b'IDAT' 2643 65536
+2017-01-17 12:51:41,302 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-6.png: #c89e9d, #c79994, #cc9e92, #d2b1a3
+2017-01-17 12:51:41,302 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:41,302 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:42,644 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-7.png: #866829, #816429, #7d661f, #7e631b
+2017-01-17 12:51:42,645 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:42,645 - DEBUG - STREAM b'iCCP' 41 8467
+2017-01-17 12:51:42,645 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:51:42,645 - DEBUG - Compression method 0
+2017-01-17 12:51:42,645 - DEBUG - STREAM b'IDAT' 8520 65536
+2017-01-17 12:51:43,486 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-8.png: #555562, #474551, #23273f, #2f313d
+2017-01-17 12:51:43,486 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:43,486 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:44,210 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-9.png: #7c70ad, #362f44, #18151c, #1c191f
+2017-01-17 12:51:44,210 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:44,210 - DEBUG - STREAM b'iCCP' 41 1818
+2017-01-17 12:51:44,210 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:51:44,211 - DEBUG - Compression method 0
+2017-01-17 12:51:44,211 - DEBUG - STREAM b'IDAT' 1871 65536
+2017-01-17 12:51:45,377 - DEBUG - Colors got from J:\Mosaic\database\atomic-rooster-10.png: #655f87, #785e70, #ac9aa4, #535073
+2017-01-17 12:51:45,377 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:45,377 - DEBUG - STREAM b'iCCP' 41 2608
+2017-01-17 12:51:45,377 - DEBUG - iCCP profile name b'ICC Profile'
+2017-01-17 12:51:45,377 - DEBUG - Compression method 0
+2017-01-17 12:51:45,377 - DEBUG - STREAM b'IDAT' 2661 65536
+2017-01-17 12:51:45,538 - DEBUG - Colors got from J:\Mosaic\database\marc-anthony-1.png: #101211, #131413, #121312, #141514
+2017-01-17 12:51:45,538 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:45,539 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:46,869 - DEBUG - Colors got from J:\Mosaic\database\marc-anthony-2.png: #473433, #542b2f, #191519, #411d22
+2017-01-17 12:51:46,869 - DEBUG - STREAM b'IHDR' 16 13
+2017-01-17 12:51:46,870 - DEBUG - STREAM b'IDAT' 41 65536
+2017-01-17 12:51:47,518 - DEBUG - Colors got from J:\Mosaic\database\marc-anthony-3.png: #e2d2bb, #fbf9f5, #e9d3af, #f5f2eb
+2017-01-17 13:05:56,017 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Beatles
+2017-01-17 13:05:56,277 - DEBUG - Artist already in library: The Beatles, b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d
+2017-01-17 13:05:56,278 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Y-%26-T
+2017-01-17 13:05:56,494 - DEBUG - Artist already in library: Y & T, e773e9a3-cadd-41d2-a7e9-4ca097ae5a3f
+2017-01-17 13:05:56,495 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Wizzard
+2017-01-17 13:05:56,668 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/9a121283-e355-4741-8729-f4b84650ff78?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:05:56,736 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 13:05:56,736 - DEBUG - No album covers found for artist Wizzard
+2017-01-17 13:05:56,738 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Thorinshield
+2017-01-17 13:05:56,861 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/e9d47cf1-b212-40d1-8515-6c8655860015?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:05:56,970 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 13:05:56,970 - DEBUG - No album covers found for artist Thorinshield
+2017-01-17 13:05:56,971 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fleetwood-Mac
+2017-01-17 13:05:57,174 - DEBUG - Artist already in library: Fleetwood Mac, bd13909f-1c29-4c27-a874-d4aaf27c5b1a
+2017-01-17 13:05:57,175 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Sandra
+2017-01-17 13:05:57,300 - DEBUG - Artist already in library: Sandra, 9809d784-037f-46e7-8d2d-7ecad897f355
+2017-01-17 13:05:57,301 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alan-Silvestri
+2017-01-17 13:05:57,498 - DEBUG - Artist already in library: Alan Silvestri, f4c53778-e48d-4da4-9ddd-cc007f715d64
+2017-01-17 13:05:57,500 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alva-Noto
+2017-01-17 13:05:57,630 - DEBUG - Artist already in library: Alva Noto, 48ec4bb6-47a6-4e2c-8287-7617464eb193
+2017-01-17 13:05:57,631 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Tina-Charles
+2017-01-17 13:05:57,814 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/93117a67-55b4-4b18-94c4-35c8a75fefc2?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:05:57,864 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 13:05:57,864 - DEBUG - No album covers found for artist Tina Charles
+2017-01-17 13:05:57,865 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anna-Naklab
+2017-01-17 13:05:58,000 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/63887719-3abe-432c-bc18-2dcd47b34191?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:05:58,065 - ERROR - Album without cover found. Ignoring.
+2017-01-17 13:05:58,065 - DEBUG - No album covers found for artist Anna Naklab
+2017-01-17 13:05:58,066 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Arch-Enemy
+2017-01-17 13:05:58,140 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,140 - DEBUG - Could not retrieve artist id from database: Arch Enemy
+2017-01-17 13:05:58,141 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lisa-Stansfield
+2017-01-17 13:05:58,215 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,215 - DEBUG - Could not retrieve artist id from database: Lisa Stansfield
+2017-01-17 13:05:58,217 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alvaro-Soler
+2017-01-17 13:05:58,290 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,290 - DEBUG - Could not retrieve artist id from database: Alvaro Soler
+2017-01-17 13:05:58,292 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marco-Beltrami
+2017-01-17 13:05:58,365 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,365 - DEBUG - Could not retrieve artist id from database: Marco Beltrami
+2017-01-17 13:05:58,367 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Snot
+2017-01-17 13:05:58,439 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,439 - DEBUG - Could not retrieve artist id from database: Snot
+2017-01-17 13:05:58,440 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Nancy-Sinatra
+2017-01-17 13:05:58,514 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,514 - DEBUG - Could not retrieve artist id from database: Nancy Sinatra
+2017-01-17 13:05:58,516 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:J%C3%B3hann-J%C3%B3hannsson
+2017-01-17 13:05:58,590 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,590 - DEBUG - Could not retrieve artist id from database: Jóhann Jóhannsson
+2017-01-17 13:05:58,591 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Howard-Shore
+2017-01-17 13:05:58,665 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,665 - DEBUG - Could not retrieve artist id from database: Howard Shore
+2017-01-17 13:05:58,666 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%B7%9D%E7%94%B0%E3%81%BE%E3%81%BF
+2017-01-17 13:05:58,741 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,741 - DEBUG - Could not retrieve artist id from database: 川田まみ
+2017-01-17 13:05:58,742 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:SAKEROCK
+2017-01-17 13:05:58,817 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,817 - DEBUG - Could not retrieve artist id from database: SAKEROCK
+2017-01-17 13:05:58,819 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joaqu%C3%ADn-Sabina
+2017-01-17 13:05:58,891 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,891 - DEBUG - Could not retrieve artist id from database: Joaquín Sabina
+2017-01-17 13:05:58,892 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Runaway-City
+2017-01-17 13:05:58,965 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:58,965 - DEBUG - Could not retrieve artist id from database: Runaway City
+2017-01-17 13:05:58,967 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3rd-Wish
+2017-01-17 13:05:59,040 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,040 - DEBUG - Could not retrieve artist id from database: 3rd Wish
+2017-01-17 13:05:59,041 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Redlight-King
+2017-01-17 13:05:59,115 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,115 - DEBUG - Could not retrieve artist id from database: Redlight King
+2017-01-17 13:05:59,116 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Queen
+2017-01-17 13:05:59,189 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,189 - DEBUG - Could not retrieve artist id from database: Queen
+2017-01-17 13:05:59,190 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Billy-Preston
+2017-01-17 13:05:59,266 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,266 - DEBUG - Could not retrieve artist id from database: Billy Preston
+2017-01-17 13:05:59,268 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Polar-Bear-Club
+2017-01-17 13:05:59,343 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,343 - DEBUG - Could not retrieve artist id from database: Polar Bear Club
+2017-01-17 13:05:59,344 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Platters
+2017-01-17 13:05:59,420 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,420 - DEBUG - Could not retrieve artist id from database: The Platters
+2017-01-17 13:05:59,422 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ante-Perry
+2017-01-17 13:05:59,495 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,495 - DEBUG - Could not retrieve artist id from database: Ante Perry
+2017-01-17 13:05:59,496 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Paper-Route
+2017-01-17 13:05:59,570 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,570 - DEBUG - Could not retrieve artist id from database: Paper Route
+2017-01-17 13:05:59,572 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Black-Lungs
+2017-01-17 13:05:59,646 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,646 - DEBUG - Could not retrieve artist id from database: Black Lungs
+2017-01-17 13:05:59,647 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:John-Ottman
+2017-01-17 13:05:59,720 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,721 - DEBUG - Could not retrieve artist id from database: John Ottman
+2017-01-17 13:05:59,722 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Orchids
+2017-01-17 13:05:59,796 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,796 - DEBUG - Could not retrieve artist id from database: The Orchids
+2017-01-17 13:05:59,797 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M83
+2017-01-17 13:05:59,870 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,870 - DEBUG - Could not retrieve artist id from database: M83
+2017-01-17 13:05:59,872 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M.O
+2017-01-17 13:05:59,945 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:05:59,945 - DEBUG - Could not retrieve artist id from database: M.O
+2017-01-17 13:05:59,947 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Matoma
+2017-01-17 13:06:00,022 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,022 - DEBUG - Could not retrieve artist id from database: Matoma
+2017-01-17 13:06:00,023 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marillion
+2017-01-17 13:06:00,097 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,097 - DEBUG - Could not retrieve artist id from database: Marillion
+2017-01-17 13:06:00,099 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mano-Negra
+2017-01-17 13:06:00,172 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,173 - DEBUG - Could not retrieve artist id from database: Mano Negra
+2017-01-17 13:06:00,174 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mango
+2017-01-17 13:06:00,245 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,246 - DEBUG - Could not retrieve artist id from database: Mango
+2017-01-17 13:06:00,247 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Taj-Mahal
+2017-01-17 13:06:00,321 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,321 - DEBUG - Could not retrieve artist id from database: Taj Mahal
+2017-01-17 13:06:00,322 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Madredeus
+2017-01-17 13:06:00,396 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,396 - DEBUG - Could not retrieve artist id from database: Madredeus
+2017-01-17 13:06:00,398 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Luis-Miguel
+2017-01-17 13:06:00,471 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,471 - DEBUG - Could not retrieve artist id from database: Luis Miguel
+2017-01-17 13:06:00,472 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Louisa-Johnson
+2017-01-17 13:06:00,546 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,547 - DEBUG - Could not retrieve artist id from database: Louisa Johnson
+2017-01-17 13:06:00,548 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Live
+2017-01-17 13:06:00,640 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,640 - DEBUG - Could not retrieve artist id from database: Live
+2017-01-17 13:06:00,641 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Litfiba
+2017-01-17 13:06:00,726 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,726 - DEBUG - Could not retrieve artist id from database: Litfiba
+2017-01-17 13:06:00,727 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ligabue
+2017-01-17 13:06:00,801 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,801 - DEBUG - Could not retrieve artist id from database: Ligabue
+2017-01-17 13:06:00,802 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Leftover-Cuties
+2017-01-17 13:06:00,875 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,875 - DEBUG - Could not retrieve artist id from database: Leftover Cuties
+2017-01-17 13:06:00,876 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Zara-Larsson
+2017-01-17 13:06:00,951 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:00,951 - DEBUG - Could not retrieve artist id from database: Zara Larsson
+2017-01-17 13:06:00,952 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M%C3%A4go-de-Oz
+2017-01-17 13:06:01,027 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,027 - DEBUG - Could not retrieve artist id from database: Mägo de Oz
+2017-01-17 13:06:01,028 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%96%9C%E5%A4%9A%E9%83%8E
+2017-01-17 13:06:01,106 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,106 - DEBUG - Could not retrieve artist id from database: 喜多郎
+2017-01-17 13:06:01,107 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Cyndi-Lauper
+2017-01-17 13:06:01,180 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,180 - DEBUG - Could not retrieve artist id from database: Cyndi Lauper
+2017-01-17 13:06:01,181 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Johnson
+2017-01-17 13:06:01,255 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,255 - DEBUG - Could not retrieve artist id from database: Andreas Johnson
+2017-01-17 13:06:01,256 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Al-Jarreau
+2017-01-17 13:06:01,328 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,329 - DEBUG - Could not retrieve artist id from database: Al Jarreau
+2017-01-17 13:06:01,330 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jarabe-de-Palo
+2017-01-17 13:06:01,404 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,404 - DEBUG - Could not retrieve artist id from database: Jarabe de Palo
+2017-01-17 13:06:01,405 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fo%E2%80%99xTails
+2017-01-17 13:06:01,480 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,480 - DEBUG - Could not retrieve artist id from database: Fo’xTails
+2017-01-17 13:06:01,481 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Axxis
+2017-01-17 13:06:01,553 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,553 - DEBUG - Could not retrieve artist id from database: Axxis
+2017-01-17 13:06:01,555 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dew-Scented
+2017-01-17 13:06:01,628 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,628 - DEBUG - Could not retrieve artist id from database: Dew-Scented
+2017-01-17 13:06:01,629 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lena-Horne
+2017-01-17 13:06:01,703 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,703 - DEBUG - Could not retrieve artist id from database: Lena Horne
+2017-01-17 13:06:01,704 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Rolling-Stones
+2017-01-17 13:06:01,776 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,777 - DEBUG - Could not retrieve artist id from database: The Rolling Stones
+2017-01-17 13:06:01,778 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alexandre-Desplat
+2017-01-17 13:06:01,851 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,852 - DEBUG - Could not retrieve artist id from database: Alexandre Desplat
+2017-01-17 13:06:01,853 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Kirk-Franklin
+2017-01-17 13:06:01,927 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:01,927 - DEBUG - Could not retrieve artist id from database: Kirk Franklin
+2017-01-17 13:06:01,928 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgia
+2017-01-17 13:06:02,004 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,004 - DEBUG - Could not retrieve artist id from database: Giorgia
+2017-01-17 13:06:02,005 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgio-Gaber
+2017-01-17 13:06:02,079 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,079 - DEBUG - Could not retrieve artist id from database: Giorgio Gaber
+2017-01-17 13:06:02,080 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Gabalier
+2017-01-17 13:06:02,154 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,154 - DEBUG - Could not retrieve artist id from database: Andreas Gabalier
+2017-01-17 13:06:02,155 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Journey
+2017-01-17 13:06:02,229 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,229 - DEBUG - Could not retrieve artist id from database: Journey
+2017-01-17 13:06:02,230 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andy-Fraser
+2017-01-17 13:06:02,303 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,303 - DEBUG - Could not retrieve artist id from database: Andy Fraser
+2017-01-17 13:06:02,304 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Silverchair
+2017-01-17 13:06:02,378 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,379 - DEBUG - Could not retrieve artist id from database: Silverchair
+2017-01-17 13:06:02,380 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ibrahim-Ferrer
+2017-01-17 13:06:02,452 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,452 - DEBUG - Could not retrieve artist id from database: Ibrahim Ferrer
+2017-01-17 13:06:02,454 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Family-of-the-Year
+2017-01-17 13:06:02,528 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,529 - DEBUG - Could not retrieve artist id from database: Family of the Year
+2017-01-17 13:06:02,530 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Van-Halen
+2017-01-17 13:06:02,603 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,603 - DEBUG - Could not retrieve artist id from database: Van Halen
+2017-01-17 13:06:02,604 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Abel-Korzeniowski
+2017-01-17 13:06:02,680 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,680 - DEBUG - Could not retrieve artist id from database: Abel Korzeniowski
+2017-01-17 13:06:02,681 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eruption
+2017-01-17 13:06:02,754 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,754 - DEBUG - Could not retrieve artist id from database: Eruption
+2017-01-17 13:06:02,755 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Asphyx
+2017-01-17 13:06:02,828 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,828 - DEBUG - Could not retrieve artist id from database: Asphyx
+2017-01-17 13:06:02,830 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Peking-Duk
+2017-01-17 13:06:02,905 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,905 - DEBUG - Could not retrieve artist id from database: Peking Duk
+2017-01-17 13:06:02,906 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Kent
+2017-01-17 13:06:02,980 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:02,980 - DEBUG - Could not retrieve artist id from database: Kent
+2017-01-17 13:06:02,981 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dr.-Hook
+2017-01-17 13:06:03,055 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,055 - DEBUG - Could not retrieve artist id from database: Dr. Hook
+2017-01-17 13:06:03,056 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eros-Ramazzotti
+2017-01-17 13:06:03,131 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,131 - DEBUG - Could not retrieve artist id from database: Eros Ramazzotti
+2017-01-17 13:06:03,133 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Santa-Esmeralda
+2017-01-17 13:06:03,207 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,207 - DEBUG - Could not retrieve artist id from database: Santa Esmeralda
+2017-01-17 13:06:03,208 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Willie-Dixon
+2017-01-17 13:06:03,285 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,285 - DEBUG - Could not retrieve artist id from database: Willie Dixon
+2017-01-17 13:06:03,286 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jesse-McCartney
+2017-01-17 13:06:03,361 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,361 - DEBUG - Could not retrieve artist id from database: Jesse McCartney
+2017-01-17 13:06:03,363 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Massacre
+2017-01-17 13:06:03,435 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,436 - DEBUG - Could not retrieve artist id from database: Massacre
+2017-01-17 13:06:03,437 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:James-Newton-Howard
+2017-01-17 13:06:03,511 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,511 - DEBUG - Could not retrieve artist id from database: James Newton Howard
+2017-01-17 13:06:03,512 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joy-Division
+2017-01-17 13:06:03,586 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,586 - DEBUG - Could not retrieve artist id from database: Joy Division
+2017-01-17 13:06:03,587 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anthrax
+2017-01-17 13:06:03,662 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,662 - DEBUG - Could not retrieve artist id from database: Anthrax
+2017-01-17 13:06:03,663 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Charli-XCX
+2017-01-17 13:06:03,737 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,737 - DEBUG - Could not retrieve artist id from database: Charli XCX
+2017-01-17 13:06:03,738 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Chainsmokers
+2017-01-17 13:06:03,812 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,812 - DEBUG - Could not retrieve artist id from database: The Chainsmokers
+2017-01-17 13:06:03,813 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Yvonne-Catterfeld
+2017-01-17 13:06:03,887 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,887 - DEBUG - Could not retrieve artist id from database: Yvonne Catterfeld
+2017-01-17 13:06:03,888 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bob-Catley
+2017-01-17 13:06:03,962 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:03,962 - DEBUG - Could not retrieve artist id from database: Bob Catley
+2017-01-17 13:06:03,963 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Camper-Van-Beethoven
+2017-01-17 13:06:04,036 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,036 - DEBUG - Could not retrieve artist id from database: Camper Van Beethoven
+2017-01-17 13:06:04,037 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Metallica
+2017-01-17 13:06:04,109 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,109 - DEBUG - Could not retrieve artist id from database: Metallica
+2017-01-17 13:06:04,111 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Goran-Bregovi%C4%87
+2017-01-17 13:06:04,184 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,184 - DEBUG - Could not retrieve artist id from database: Goran Bregović
+2017-01-17 13:06:04,185 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adana-Twins
+2017-01-17 13:06:04,260 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,260 - DEBUG - Could not retrieve artist id from database: Adana Twins
+2017-01-17 13:06:04,261 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Better-Than-Ezra
+2017-01-17 13:06:04,336 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,337 - DEBUG - Could not retrieve artist id from database: Better Than Ezra
+2017-01-17 13:06:04,338 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atticus-Ross
+2017-01-17 13:06:04,412 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,412 - DEBUG - Could not retrieve artist id from database: Atticus Ross
+2017-01-17 13:06:04,413 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Basement-Jaxx
+2017-01-17 13:06:04,503 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,503 - DEBUG - Could not retrieve artist id from database: Basement Jaxx
+2017-01-17 13:06:04,504 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Every-Avenue
+2017-01-17 13:06:04,579 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,580 - DEBUG - Could not retrieve artist id from database: Every Avenue
+2017-01-17 13:06:04,581 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atomic-Rooster
+2017-01-17 13:06:04,655 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,655 - DEBUG - Could not retrieve artist id from database: Atomic Rooster
+2017-01-17 13:06:04,656 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marc-Anthony
+2017-01-17 13:06:04,730 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,730 - DEBUG - Could not retrieve artist id from database: Marc Anthony
+2017-01-17 13:06:04,732 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anne-Marie
+2017-01-17 13:06:04,805 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,805 - DEBUG - Could not retrieve artist id from database: Anne-Marie
+2017-01-17 13:06:04,806 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Testament
+2017-01-17 13:06:04,881 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,881 - DEBUG - Could not retrieve artist id from database: Testament
+2017-01-17 13:06:04,882 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:American-Dog
+2017-01-17 13:06:04,956 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:04,956 - DEBUG - Could not retrieve artist id from database: American Dog
+2017-01-17 13:06:04,957 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Aloha-From-Hell
+2017-01-17 13:06:05,033 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,033 - DEBUG - Could not retrieve artist id from database: Aloha From Hell
+2017-01-17 13:06:05,035 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alle-Farben
+2017-01-17 13:06:05,111 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,111 - DEBUG - Could not retrieve artist id from database: Alle Farben
+2017-01-17 13:06:05,112 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AirDice
+2017-01-17 13:06:05,186 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,186 - DEBUG - Could not retrieve artist id from database: AirDice
+2017-01-17 13:06:05,187 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ailee
+2017-01-17 13:06:05,262 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,262 - DEBUG - Could not retrieve artist id from database: Ailee
+2017-01-17 13:06:05,263 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AGF/Delay
+2017-01-17 13:06:05,336 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,336 - DEBUG - Could not retrieve artist id from database: AGF/Delay
+2017-01-17 13:06:05,337 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adiemus
+2017-01-17 13:06:05,412 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,412 - DEBUG - Could not retrieve artist id from database: Adiemus
+2017-01-17 13:06:05,414 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3T
+2017-01-17 13:06:05,487 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,487 - DEBUG - Could not retrieve artist id from database: 3T
+2017-01-17 13:06:05,488 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Rush
+2017-01-17 13:06:05,562 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,562 - DEBUG - Could not retrieve artist id from database: Rush
+2017-01-17 13:06:05,564 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Guano-Padano
+2017-01-17 13:06:05,636 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,636 - DEBUG - Could not retrieve artist id from database: Guano Padano
+2017-01-17 13:06:05,638 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E3%83%95%E3%83%AA%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3
+2017-01-17 13:06:05,711 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,711 - DEBUG - Could not retrieve artist id from database: フリクション
+2017-01-17 13:06:05,713 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:LArc%7Een%7ECiel
+2017-01-17 13:06:05,785 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:05,785 - DEBUG - Could not retrieve artist id from database: LArc~en~Ciel
+2017-01-17 13:06:46,661 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Beatles
+2017-01-17 13:06:46,925 - DEBUG - Artist already in library: The Beatles, b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d
+2017-01-17 13:06:46,926 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Y-%26-T
+2017-01-17 13:06:47,144 - DEBUG - Artist already in library: Y & T, e773e9a3-cadd-41d2-a7e9-4ca097ae5a3f
+2017-01-17 13:06:47,145 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Wizzard
+2017-01-17 13:06:47,303 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/9a121283-e355-4741-8729-f4b84650ff78?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:06:47,353 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 13:06:47,353 - DEBUG - No album covers found for artist Wizzard
+2017-01-17 13:06:47,355 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Thorinshield
+2017-01-17 13:06:47,482 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/e9d47cf1-b212-40d1-8515-6c8655860015?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:06:47,586 - ERROR - library.get_album_cover_urls: HTTP Error 404: Not Found
+2017-01-17 13:06:47,586 - DEBUG - No album covers found for artist Thorinshield
+2017-01-17 13:06:47,587 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fleetwood-Mac
+2017-01-17 13:06:47,790 - DEBUG - Artist already in library: Fleetwood Mac, bd13909f-1c29-4c27-a874-d4aaf27c5b1a
+2017-01-17 13:06:47,791 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Sandra
+2017-01-17 13:06:47,915 - DEBUG - Artist already in library: Sandra, 9809d784-037f-46e7-8d2d-7ecad897f355
+2017-01-17 13:06:47,916 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alan-Silvestri
+2017-01-17 13:06:48,115 - DEBUG - Artist already in library: Alan Silvestri, f4c53778-e48d-4da4-9ddd-cc007f715d64
+2017-01-17 13:06:48,117 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alva-Noto
+2017-01-17 13:06:48,239 - DEBUG - Artist already in library: Alva Noto, 48ec4bb6-47a6-4e2c-8287-7617464eb193
+2017-01-17 13:06:48,240 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Tina-Charles
+2017-01-17 13:06:48,409 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/93117a67-55b4-4b18-94c4-35c8a75fefc2?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:06:48,458 - ERROR - library.get_album_covers: No covers found. 
+2017-01-17 13:06:48,458 - DEBUG - No album covers found for artist Tina Charles
+2017-01-17 13:06:48,460 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anna-Naklab
+2017-01-17 13:06:48,583 - DEBUG - Trying url: http://webservice.fanart.tv/v3/music/63887719-3abe-432c-bc18-2dcd47b34191?api_key=2bd7429bab36fa40ec43932d6f989925
+2017-01-17 13:06:48,633 - ERROR - Album without cover found. Ignoring.
+2017-01-17 13:06:48,633 - DEBUG - No album covers found for artist Anna Naklab
+2017-01-17 13:06:48,635 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Arch-Enemy
+2017-01-17 13:06:48,706 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:48,706 - DEBUG - Could not retrieve artist id from database: Arch Enemy
+2017-01-17 13:06:48,708 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lisa-Stansfield
+2017-01-17 13:06:48,784 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:48,785 - DEBUG - Could not retrieve artist id from database: Lisa Stansfield
+2017-01-17 13:06:48,786 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alvaro-Soler
+2017-01-17 13:06:48,857 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:48,858 - DEBUG - Could not retrieve artist id from database: Alvaro Soler
+2017-01-17 13:06:48,859 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marco-Beltrami
+2017-01-17 13:06:48,933 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:48,933 - DEBUG - Could not retrieve artist id from database: Marco Beltrami
+2017-01-17 13:06:48,934 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Snot
+2017-01-17 13:06:49,006 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,007 - DEBUG - Could not retrieve artist id from database: Snot
+2017-01-17 13:06:49,008 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Nancy-Sinatra
+2017-01-17 13:06:49,080 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,081 - DEBUG - Could not retrieve artist id from database: Nancy Sinatra
+2017-01-17 13:06:49,082 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:J%C3%B3hann-J%C3%B3hannsson
+2017-01-17 13:06:49,154 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,155 - DEBUG - Could not retrieve artist id from database: Jóhann Jóhannsson
+2017-01-17 13:06:49,156 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Howard-Shore
+2017-01-17 13:06:49,230 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,230 - DEBUG - Could not retrieve artist id from database: Howard Shore
+2017-01-17 13:06:49,231 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%B7%9D%E7%94%B0%E3%81%BE%E3%81%BF
+2017-01-17 13:06:49,304 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,304 - DEBUG - Could not retrieve artist id from database: 川田まみ
+2017-01-17 13:06:49,305 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:SAKEROCK
+2017-01-17 13:06:49,378 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,379 - DEBUG - Could not retrieve artist id from database: SAKEROCK
+2017-01-17 13:06:49,380 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joaqu%C3%ADn-Sabina
+2017-01-17 13:06:49,456 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,456 - DEBUG - Could not retrieve artist id from database: Joaquín Sabina
+2017-01-17 13:06:49,458 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Runaway-City
+2017-01-17 13:06:49,533 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,533 - DEBUG - Could not retrieve artist id from database: Runaway City
+2017-01-17 13:06:49,535 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3rd-Wish
+2017-01-17 13:06:49,606 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,606 - DEBUG - Could not retrieve artist id from database: 3rd Wish
+2017-01-17 13:06:49,608 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Redlight-King
+2017-01-17 13:06:49,682 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,682 - DEBUG - Could not retrieve artist id from database: Redlight King
+2017-01-17 13:06:49,683 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Queen
+2017-01-17 13:06:49,756 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,756 - DEBUG - Could not retrieve artist id from database: Queen
+2017-01-17 13:06:49,757 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Billy-Preston
+2017-01-17 13:06:49,830 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,830 - DEBUG - Could not retrieve artist id from database: Billy Preston
+2017-01-17 13:06:49,832 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Polar-Bear-Club
+2017-01-17 13:06:49,921 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,921 - DEBUG - Could not retrieve artist id from database: Polar Bear Club
+2017-01-17 13:06:49,923 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Platters
+2017-01-17 13:06:49,995 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:49,996 - DEBUG - Could not retrieve artist id from database: The Platters
+2017-01-17 13:06:49,997 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ante-Perry
+2017-01-17 13:06:50,070 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,070 - DEBUG - Could not retrieve artist id from database: Ante Perry
+2017-01-17 13:06:50,071 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Paper-Route
+2017-01-17 13:06:50,162 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,162 - DEBUG - Could not retrieve artist id from database: Paper Route
+2017-01-17 13:06:50,163 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Black-Lungs
+2017-01-17 13:06:50,237 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,237 - DEBUG - Could not retrieve artist id from database: Black Lungs
+2017-01-17 13:06:50,239 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:John-Ottman
+2017-01-17 13:06:50,312 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,313 - DEBUG - Could not retrieve artist id from database: John Ottman
+2017-01-17 13:06:50,314 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Orchids
+2017-01-17 13:06:50,386 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,387 - DEBUG - Could not retrieve artist id from database: The Orchids
+2017-01-17 13:06:50,388 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M83
+2017-01-17 13:06:50,463 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,463 - DEBUG - Could not retrieve artist id from database: M83
+2017-01-17 13:06:50,464 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M.O
+2017-01-17 13:06:50,538 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,538 - DEBUG - Could not retrieve artist id from database: M.O
+2017-01-17 13:06:50,540 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Matoma
+2017-01-17 13:06:50,611 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,611 - DEBUG - Could not retrieve artist id from database: Matoma
+2017-01-17 13:06:50,612 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marillion
+2017-01-17 13:06:50,686 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,686 - DEBUG - Could not retrieve artist id from database: Marillion
+2017-01-17 13:06:50,687 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mano-Negra
+2017-01-17 13:06:50,761 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,761 - DEBUG - Could not retrieve artist id from database: Mano Negra
+2017-01-17 13:06:50,763 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Mango
+2017-01-17 13:06:50,837 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,837 - DEBUG - Could not retrieve artist id from database: Mango
+2017-01-17 13:06:50,838 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Taj-Mahal
+2017-01-17 13:06:50,912 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,912 - DEBUG - Could not retrieve artist id from database: Taj Mahal
+2017-01-17 13:06:50,913 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Madredeus
+2017-01-17 13:06:50,988 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:50,989 - DEBUG - Could not retrieve artist id from database: Madredeus
+2017-01-17 13:06:50,990 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Luis-Miguel
+2017-01-17 13:06:51,062 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,062 - DEBUG - Could not retrieve artist id from database: Luis Miguel
+2017-01-17 13:06:51,064 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Louisa-Johnson
+2017-01-17 13:06:51,138 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,138 - DEBUG - Could not retrieve artist id from database: Louisa Johnson
+2017-01-17 13:06:51,139 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Live
+2017-01-17 13:06:51,213 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,213 - DEBUG - Could not retrieve artist id from database: Live
+2017-01-17 13:06:51,215 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Litfiba
+2017-01-17 13:06:51,285 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,286 - DEBUG - Could not retrieve artist id from database: Litfiba
+2017-01-17 13:06:51,287 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ligabue
+2017-01-17 13:06:51,360 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,360 - DEBUG - Could not retrieve artist id from database: Ligabue
+2017-01-17 13:06:51,361 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Leftover-Cuties
+2017-01-17 13:06:51,435 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,435 - DEBUG - Could not retrieve artist id from database: Leftover Cuties
+2017-01-17 13:06:51,437 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Zara-Larsson
+2017-01-17 13:06:51,509 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,509 - DEBUG - Could not retrieve artist id from database: Zara Larsson
+2017-01-17 13:06:51,510 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:M%C3%A4go-de-Oz
+2017-01-17 13:06:51,596 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,596 - DEBUG - Could not retrieve artist id from database: Mägo de Oz
+2017-01-17 13:06:51,598 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E5%96%9C%E5%A4%9A%E9%83%8E
+2017-01-17 13:06:51,670 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,670 - DEBUG - Could not retrieve artist id from database: 喜多郎
+2017-01-17 13:06:51,671 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Cyndi-Lauper
+2017-01-17 13:06:51,743 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,743 - DEBUG - Could not retrieve artist id from database: Cyndi Lauper
+2017-01-17 13:06:51,745 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Johnson
+2017-01-17 13:06:51,821 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,822 - DEBUG - Could not retrieve artist id from database: Andreas Johnson
+2017-01-17 13:06:51,823 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Al-Jarreau
+2017-01-17 13:06:51,897 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,897 - DEBUG - Could not retrieve artist id from database: Al Jarreau
+2017-01-17 13:06:51,899 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jarabe-de-Palo
+2017-01-17 13:06:51,973 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:51,973 - DEBUG - Could not retrieve artist id from database: Jarabe de Palo
+2017-01-17 13:06:51,975 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Fo%E2%80%99xTails
+2017-01-17 13:06:52,048 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,049 - DEBUG - Could not retrieve artist id from database: Fo’xTails
+2017-01-17 13:06:52,050 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Axxis
+2017-01-17 13:06:52,122 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,122 - DEBUG - Could not retrieve artist id from database: Axxis
+2017-01-17 13:06:52,123 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dew-Scented
+2017-01-17 13:06:52,195 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,195 - DEBUG - Could not retrieve artist id from database: Dew-Scented
+2017-01-17 13:06:52,197 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Lena-Horne
+2017-01-17 13:06:52,272 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,272 - DEBUG - Could not retrieve artist id from database: Lena Horne
+2017-01-17 13:06:52,274 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Rolling-Stones
+2017-01-17 13:06:52,345 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,345 - DEBUG - Could not retrieve artist id from database: The Rolling Stones
+2017-01-17 13:06:52,347 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alexandre-Desplat
+2017-01-17 13:06:52,420 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,421 - DEBUG - Could not retrieve artist id from database: Alexandre Desplat
+2017-01-17 13:06:52,422 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Kirk-Franklin
+2017-01-17 13:06:52,496 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,496 - DEBUG - Could not retrieve artist id from database: Kirk Franklin
+2017-01-17 13:06:52,497 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgia
+2017-01-17 13:06:52,571 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,571 - DEBUG - Could not retrieve artist id from database: Giorgia
+2017-01-17 13:06:52,572 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Giorgio-Gaber
+2017-01-17 13:06:52,644 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,645 - DEBUG - Could not retrieve artist id from database: Giorgio Gaber
+2017-01-17 13:06:52,646 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andreas-Gabalier
+2017-01-17 13:06:52,719 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,719 - DEBUG - Could not retrieve artist id from database: Andreas Gabalier
+2017-01-17 13:06:52,720 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Journey
+2017-01-17 13:06:52,792 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,793 - DEBUG - Could not retrieve artist id from database: Journey
+2017-01-17 13:06:52,794 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Andy-Fraser
+2017-01-17 13:06:52,867 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,867 - DEBUG - Could not retrieve artist id from database: Andy Fraser
+2017-01-17 13:06:52,868 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Silverchair
+2017-01-17 13:06:52,942 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:52,942 - DEBUG - Could not retrieve artist id from database: Silverchair
+2017-01-17 13:06:52,944 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ibrahim-Ferrer
+2017-01-17 13:06:53,016 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,016 - DEBUG - Could not retrieve artist id from database: Ibrahim Ferrer
+2017-01-17 13:06:53,017 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Family-of-the-Year
+2017-01-17 13:06:53,091 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,091 - DEBUG - Could not retrieve artist id from database: Family of the Year
+2017-01-17 13:06:53,093 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Van-Halen
+2017-01-17 13:06:53,168 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,169 - DEBUG - Could not retrieve artist id from database: Van Halen
+2017-01-17 13:06:53,170 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Abel-Korzeniowski
+2017-01-17 13:06:53,244 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,244 - DEBUG - Could not retrieve artist id from database: Abel Korzeniowski
+2017-01-17 13:06:53,246 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eruption
+2017-01-17 13:06:53,320 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,321 - DEBUG - Could not retrieve artist id from database: Eruption
+2017-01-17 13:06:53,322 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Asphyx
+2017-01-17 13:06:53,402 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,402 - DEBUG - Could not retrieve artist id from database: Asphyx
+2017-01-17 13:06:53,403 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Peking-Duk
+2017-01-17 13:06:53,475 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,475 - DEBUG - Could not retrieve artist id from database: Peking Duk
+2017-01-17 13:06:53,476 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Kent
+2017-01-17 13:06:53,551 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,551 - DEBUG - Could not retrieve artist id from database: Kent
+2017-01-17 13:06:53,552 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Dr.-Hook
+2017-01-17 13:06:53,625 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,625 - DEBUG - Could not retrieve artist id from database: Dr. Hook
+2017-01-17 13:06:53,627 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Eros-Ramazzotti
+2017-01-17 13:06:53,701 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,702 - DEBUG - Could not retrieve artist id from database: Eros Ramazzotti
+2017-01-17 13:06:53,703 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Santa-Esmeralda
+2017-01-17 13:06:53,778 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,778 - DEBUG - Could not retrieve artist id from database: Santa Esmeralda
+2017-01-17 13:06:53,779 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Willie-Dixon
+2017-01-17 13:06:53,852 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,852 - DEBUG - Could not retrieve artist id from database: Willie Dixon
+2017-01-17 13:06:53,853 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Jesse-McCartney
+2017-01-17 13:06:53,935 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:53,936 - DEBUG - Could not retrieve artist id from database: Jesse McCartney
+2017-01-17 13:06:53,937 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Massacre
+2017-01-17 13:06:54,013 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,013 - DEBUG - Could not retrieve artist id from database: Massacre
+2017-01-17 13:06:54,014 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:James-Newton-Howard
+2017-01-17 13:06:54,088 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,088 - DEBUG - Could not retrieve artist id from database: James Newton Howard
+2017-01-17 13:06:54,090 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Joy-Division
+2017-01-17 13:06:54,162 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,162 - DEBUG - Could not retrieve artist id from database: Joy Division
+2017-01-17 13:06:54,164 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anthrax
+2017-01-17 13:06:54,238 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,238 - DEBUG - Could not retrieve artist id from database: Anthrax
+2017-01-17 13:06:54,239 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Charli-XCX
+2017-01-17 13:06:54,313 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,313 - DEBUG - Could not retrieve artist id from database: Charli XCX
+2017-01-17 13:06:54,315 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:The-Chainsmokers
+2017-01-17 13:06:54,389 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,389 - DEBUG - Could not retrieve artist id from database: The Chainsmokers
+2017-01-17 13:06:54,390 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Yvonne-Catterfeld
+2017-01-17 13:06:54,465 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,465 - DEBUG - Could not retrieve artist id from database: Yvonne Catterfeld
+2017-01-17 13:06:54,467 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Bob-Catley
+2017-01-17 13:06:54,539 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,540 - DEBUG - Could not retrieve artist id from database: Bob Catley
+2017-01-17 13:06:54,541 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Camper-Van-Beethoven
+2017-01-17 13:06:54,616 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,616 - DEBUG - Could not retrieve artist id from database: Camper Van Beethoven
+2017-01-17 13:06:54,618 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Metallica
+2017-01-17 13:06:54,690 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,690 - DEBUG - Could not retrieve artist id from database: Metallica
+2017-01-17 13:06:54,692 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Goran-Bregovi%C4%87
+2017-01-17 13:06:54,765 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,765 - DEBUG - Could not retrieve artist id from database: Goran Bregović
+2017-01-17 13:06:54,766 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adana-Twins
+2017-01-17 13:06:54,840 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,840 - DEBUG - Could not retrieve artist id from database: Adana Twins
+2017-01-17 13:06:54,841 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Better-Than-Ezra
+2017-01-17 13:06:54,917 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,917 - DEBUG - Could not retrieve artist id from database: Better Than Ezra
+2017-01-17 13:06:54,919 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atticus-Ross
+2017-01-17 13:06:54,992 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:54,992 - DEBUG - Could not retrieve artist id from database: Atticus Ross
+2017-01-17 13:06:54,993 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Basement-Jaxx
+2017-01-17 13:06:55,069 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,069 - DEBUG - Could not retrieve artist id from database: Basement Jaxx
+2017-01-17 13:06:55,070 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Every-Avenue
+2017-01-17 13:06:55,145 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,145 - DEBUG - Could not retrieve artist id from database: Every Avenue
+2017-01-17 13:06:55,146 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Atomic-Rooster
+2017-01-17 13:06:55,219 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,220 - DEBUG - Could not retrieve artist id from database: Atomic Rooster
+2017-01-17 13:06:55,221 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Marc-Anthony
+2017-01-17 13:06:55,295 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,295 - DEBUG - Could not retrieve artist id from database: Marc Anthony
+2017-01-17 13:06:55,296 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Anne-Marie
+2017-01-17 13:06:55,370 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,370 - DEBUG - Could not retrieve artist id from database: Anne-Marie
+2017-01-17 13:06:55,371 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Testament
+2017-01-17 13:06:55,448 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,448 - DEBUG - Could not retrieve artist id from database: Testament
+2017-01-17 13:06:55,450 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:American-Dog
+2017-01-17 13:06:55,522 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,522 - DEBUG - Could not retrieve artist id from database: American Dog
+2017-01-17 13:06:55,523 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Aloha-From-Hell
+2017-01-17 13:06:55,596 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,596 - DEBUG - Could not retrieve artist id from database: Aloha From Hell
+2017-01-17 13:06:55,597 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Alle-Farben
+2017-01-17 13:06:55,670 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,671 - DEBUG - Could not retrieve artist id from database: Alle Farben
+2017-01-17 13:06:55,672 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AirDice
+2017-01-17 13:06:55,746 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,746 - DEBUG - Could not retrieve artist id from database: AirDice
+2017-01-17 13:06:55,748 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Ailee
+2017-01-17 13:06:55,822 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,822 - DEBUG - Could not retrieve artist id from database: Ailee
+2017-01-17 13:06:55,823 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:AGF/Delay
+2017-01-17 13:06:55,897 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,897 - DEBUG - Could not retrieve artist id from database: AGF/Delay
+2017-01-17 13:06:55,899 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Adiemus
+2017-01-17 13:06:55,974 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:55,974 - DEBUG - Could not retrieve artist id from database: Adiemus
+2017-01-17 13:06:55,975 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:3T
+2017-01-17 13:06:56,049 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:56,049 - DEBUG - Could not retrieve artist id from database: 3T
+2017-01-17 13:06:56,051 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Rush
+2017-01-17 13:06:56,123 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:56,123 - DEBUG - Could not retrieve artist id from database: Rush
+2017-01-17 13:06:56,125 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:Guano-Padano
+2017-01-17 13:06:56,197 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:56,197 - DEBUG - Could not retrieve artist id from database: Guano Padano
+2017-01-17 13:06:56,199 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:%E3%83%95%E3%83%AA%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3
+2017-01-17 13:06:56,276 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:56,276 - DEBUG - Could not retrieve artist id from database: フリクション
+2017-01-17 13:06:56,277 - DEBUG - Trying: http://musicbrainz.org/ws/2/recording/?query=artist:LArc%7Een%7ECiel
+2017-01-17 13:06:56,351 - ERROR - HTTP Error 503: Service Temporarily Unavailable
+2017-01-17 13:06:56,351 - DEBUG - Could not retrieve artist id from database: LArc~en~Ciel

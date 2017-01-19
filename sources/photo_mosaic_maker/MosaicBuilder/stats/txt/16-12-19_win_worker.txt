@@ -1,0 +1,444 @@
+Mon Dec 19 16:24:38 2016    ./stats/16-12-19_win_single_worker
+
+         1724992490 function calls (1724992199 primitive calls) in 1815.913 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+809376000  562.255    0.000  562.255    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:425(<genexpr>)
+202344000  553.697    0.000 1197.676    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:416(hex2rgb)
+101172000  289.150    0.000 1536.197    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:393(difference)
+     3000  117.822    0.039 1725.044    0.575 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:303(get_match)
+202344001   66.240    0.000   66.240    0.000 {method 'lstrip' of 'str' objects}
+101199636   60.169    0.000   60.169    0.000 {method 'get' of 'lxml.etree._Element' objects}
+    30002   52.980    0.002   52.980    0.002 {method 'decode' of 'ImagingDecoder' objects}
+101220297   49.393    0.000   49.393    0.000 {built-in method math.sqrt}
+     3000   27.971    0.009   27.971    0.009 {method 'resize' of 'ImagingCore' objects}
+202387318/202387303   15.493    0.000   15.493    0.000 {built-in method builtins.len}
+  2895000    8.885    0.000    8.885    0.000 {method 'getchildren' of 'lxml.etree._Element' objects}
+   108459    4.658    0.000    4.658    0.000 {method 'read' of '_io.BufferedReader' objects}
+     3002    1.345    0.000    1.345    0.000 {built-in method io.open}
+    15000    0.888    0.000   85.744    0.006 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1775(thumbnail)
+     9000    0.389    0.000   56.589    0.006 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:120(load)
+     3000    0.233    0.000   84.842    0.028 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1523(resize)
+    30001    0.232    0.000    3.027    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:588(load_read)
+    12000    0.216    0.000    0.844    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:63(kmeans)
+    33854    0.182    0.000    0.182    0.000 {method 'tell' of '_io.BufferedReader' objects}
+    33854    0.171    0.000    0.171    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+     6003    0.156    0.000    0.156    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+    33854    0.151    0.000    0.625    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:107(read)
+    48297    0.123    0.000    0.123    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:48(<listcomp>)
+    15540    0.108    0.000    0.141    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:52(calculate_center)
+     6003    0.106    0.000    0.280    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:243(__init__)
+    21001    0.102    0.000    0.155    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:520(_new)
+    48297    0.088    0.000    0.250    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:46(euclidean)
+        1    0.074    0.074   90.285   90.285 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:379(build_output)
+    39185    0.071    0.000    0.071    0.000 {built-in method builtins.hasattr}
+    15000    0.068    0.000    0.183    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1017(crop)
+    39854    0.066    0.000    0.116    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_binary.py:56(i32be)
+        1    0.062    0.062 1815.823 1815.823 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:333(mosaic)
+    27003    0.061    0.000    0.061    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:500(__init__)
+    12000    0.061    0.000    0.177    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\random.py:280(sample)
+     6003    0.058    0.000    0.058    0.000 {built-in method time.strftime}
+     6000    0.053    0.000    0.053    0.000 {method 'paste' of 'ImagingCore' objects}
+    47584    0.052    0.000    0.052    0.000 {built-in method _struct.unpack}
+     3001    0.052    0.000    0.465    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2293(_open_core)
+    45001    0.051    0.000    0.078    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:752(load)
+        1    0.050    0.050    0.057    0.057 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:427(get_library)
+    30059    0.048    0.000    0.048    0.000 {built-in method builtins.min}
+    69212    0.045    0.000    0.109    0.000 {built-in method builtins.isinstance}
+     3001    0.044    0.000    0.044    0.000 {built-in method PIL._imaging.fill}
+     3001    0.043    0.000    0.043    0.000 {built-in method PIL._imaging.new}
+     6000    0.042    0.000    0.182    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1264(paste)
+    48000    0.041    0.000    0.041    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:9(<genexpr>)
+    12000    0.040    0.000    0.116    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:12(get_points)
+    12000    0.039    0.000    1.023    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:30(colorz2)
+     6003    0.038    0.000    0.074    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:197(split)
+    24000    0.036    0.000    0.065    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:178(__instancecheck__)
+     3000    0.035    0.000    0.340    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:520(_open)
+     3000    0.035    0.000    0.191    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:285(get_quadrants)
+    12006    0.034    0.000    0.068    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+    14559    0.033    0.000    0.999    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1257(debug)
+     3001    0.032    0.000    4.334    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2247(open)
+     6003    0.032    0.000    0.075    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1347(findCaller)
+    24545    0.030    0.000    0.030    0.000 {built-in method builtins.max}
+    36013    0.029    0.000    0.029    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:70(__contains__)
+     6853    0.029    0.000    0.168    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:132(call)
+    15000    0.028    0.000    0.028    0.000 {method 'crop' of 'ImagingCore' objects}
+      853    0.028    0.000    0.028    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+    42000    0.027    0.000    0.027    0.000 {method 'pixel_access' of 'ImagingCore' objects}
+    12208    0.026    0.000    0.068    0.000 {method 'join' of 'str' objects}
+     6003    0.025    0.000    0.105    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:487(formatTime)
+    65156    0.025    0.000    0.025    0.000 {built-in method __new__ of type object at 0x000000001D63DE40}
+     6003    0.025    0.000    0.185    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:554(format)
+     6003    0.025    0.000    0.025    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:382(format)
+    12000    0.023    0.000    0.090    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:9(<lambda>)
+     6004    0.022    0.000    0.027    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:120(splitdrive)
+     6003    0.022    0.000    0.022    0.000 {built-in method time.localtime}
+    12000    0.022    0.000    0.032    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:67(<listcomp>)
+    14562    0.022    0.000    0.036    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1515(isEnabledFor)
+     6003    0.022    0.000    0.524    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1471(callHandlers)
+     9003    0.022    0.000    0.022    0.000 {method 'seek' of '_io.BufferedReader' objects}
+    12006    0.021    0.000    0.021    0.000 {built-in method _codecs.charmap_encode}
+    12000    0.020    0.000    0.028    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\random.py:220(_randbelow)
+     6003    0.020    0.000    0.931    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1392(_log)
+    12000    0.020    0.000    0.020    0.000 {method 'getcolors' of 'ImagingCore' objects}
+     6003    0.019    0.000    0.299    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1377(makeRecord)
+     3000    0.019    0.000    0.025    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:614(load_end)
+     3001    0.019    0.000    0.379    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:78(__init__)
+     3000    0.018    0.000    0.033    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:330(chunk_IHDR)
+     6003    0.018    0.000    0.033    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\genericpath.py:111(_splitext)
+     6003    0.018    0.000    0.464    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:968(emit)
+    12000    0.018    0.000    1.040    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:275(get_colors_from_image)
+    12000    0.017    0.000    0.053    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1115(getcolors)
+     3756    0.017    0.000    0.017    0.000 {built-in method builtins.sorted}
+    48297    0.017    0.000    0.017    0.000 {built-in method builtins.sum}
+     6003    0.017    0.000    0.021    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:118(getLevelName)
+     7706    0.017    0.000    0.017    0.000 {built-in method PIL._imaging.crc32}
+     6003    0.017    0.000    0.186    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:957(flush)
+     3853    0.015    0.000    0.041    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:138(crc)
+    14562    0.014    0.000    0.014    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1501(getEffectiveLevel)
+    15540    0.014    0.000    0.014    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:59(<listcomp>)
+    12006    0.013    0.000    0.034    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\encodings\cp1252.py:18(encode)
+     6003    0.013    0.000    0.502    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:842(handle)
+    12000    0.013    0.000    0.013    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:34(<listcomp>)
+    10246    0.012    0.000    0.012    0.000 {built-in method builtins.getattr}
+     6003    0.012    0.000    0.026    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:45(normcase)
+     3001    0.011    0.000    0.011    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:54(_accept)
+     6853    0.011    0.000    0.011    0.000 {method 'decode' of 'bytes' objects}
+    85047    0.011    0.000    0.011    0.000 {method 'append' of 'list' objects}
+     6003    0.010    0.000    0.538    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1417(handle)
+     3000    0.010    0.000    0.010    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:345(chunk_IDAT)
+     3000    0.010    0.000    0.023    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:282(__init__)
+      853    0.010    0.000    0.052    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:302(chunk_iCCP)
+     3000    0.010    0.000    0.012    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:99(__init__)
+    21001    0.010    0.000    0.010    0.000 {method 'copy' of 'dict' objects}
+    12029    0.010    0.000    0.010    0.000 {method 'replace' of 'str' objects}
+    12006    0.009    0.000    0.017    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:799(acquire)
+     3000    0.009    0.000    0.060    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:580(load_prepare)
+    12000    0.009    0.000    0.036    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:136(isImageType)
+     3002    0.008    0.000    0.010    0.000 {method 'sort' of 'list' objects}
+    12007    0.008    0.000    0.008    0.000 {method 'acquire' of '_thread.RLock' objects}
+    18011    0.008    0.000    0.008    0.000 {method 'rfind' of 'str' objects}
+     6003    0.008    0.000    0.043    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:220(splitext)
+        1    0.008    0.008    0.084    0.084 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:260(get_tiles)
+     6003    0.008    0.000    0.472    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1039(emit)
+     6003    0.008    0.000    0.193    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:819(format)
+     6003    0.008    0.000    0.013    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:149(<lambda>)
+     3001    0.008    0.000    0.019    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:410(_getdecoder)
+     6003    0.008    0.000    0.013    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:379(usesTime)
+    21037    0.008    0.000    0.008    0.000 {method 'get' of 'dict' objects}
+     3001    0.007    0.000    0.050    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:255(load_prepare)
+     3001    0.007    0.000    0.007    0.000 {method 'setimage' of 'ImagingDecoder' objects}
+    12006    0.007    0.000    0.009    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:806(release)
+     6003    0.007    0.000    0.081    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:230(basename)
+     6003    0.007    0.000    0.020    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:532(usesTime)
+    23251    0.007    0.000    0.007    0.000 {method 'getrandbits' of '_random.Random' objects}
+     6003    0.007    0.000    0.007    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1224(current_thread)
+     3000    0.007    0.000    0.007    0.000 {built-in method PIL._imaging.zip_decoder}
+     6002    0.007    0.000    0.012    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_util.py:13(isPath)
+     9001    0.007    0.000    0.013    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_util.py:10(isStringType)
+     6003    0.006    0.000    0.006    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:321(getMessage)
+    15540    0.006    0.000    0.006    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:53(<listcomp>)
+      343    0.006    0.000    0.006    0.000 {built-in method _codecs.charmap_decode}
+     3001    0.006    0.000    0.068    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2005(new)
+    12006    0.006    0.000    0.006    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:695(filter)
+     3000    0.005    0.000    0.005    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:125(close)
+    15540    0.005    0.000    0.005    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Cluster.py:75(<listcomp>)
+     7730    0.005    0.000    0.008    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_binary.py:52(i16be)
+     6003    0.005    0.000    0.005    0.000 {method 'find' of 'str' objects}
+       71    0.005    0.000    0.005    0.000 {built-in method nt.stat}
+     3001    0.005    0.000    0.005    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:241(_accept)
+     6005    0.005    0.000    0.005    0.000 {built-in method sys._getframe}
+     3863    0.005    0.000    0.008    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:506(_safe_read)
+     6003    0.005    0.000    0.005    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\threading.py:1074(name)
+     3001    0.004    0.000    0.023    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:350(preinit)
+      853    0.004    0.000    0.004    0.000 {built-in method zlib.decompressobj}
+     6003    0.004    0.000    0.029    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:538(formatMessage)
+     6373    0.004    0.000    0.004    0.000 {method 'rstrip' of 'str' objects}
+    13733    0.004    0.000    0.004    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\_binary.py:23(i8)
+     4272    0.004    0.000    0.004    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:404(correct_path)
+     3001    0.004    0.000    0.004    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GifImagePlugin.py:45(_accept)
+     3001    0.003    0.000    0.003    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2233(_decompression_bomb_check)
+     6003    0.003    0.000    0.005    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:35(_get_bothseps)
+     3001    0.003    0.000    0.004    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:1988(_check_size)
+      853    0.003    0.000    0.035    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:86(_safe_zlib_decompress)
+    12048    0.003    0.000    0.003    0.000 {built-in method _thread.get_ident}
+     6005    0.003    0.000    0.003    0.000 {built-in method nt.getpid}
+     3000    0.003    0.000    0.003    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:508(_accept)
+     3000    0.003    0.000    0.003    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PpmImagePlugin.py:52(_accept)
+     6003    0.002    0.000    0.002    0.000 {built-in method time.time}
+     6016    0.002    0.000    0.002    0.000 {method 'lower' of 'str' objects}
+     6003    0.002    0.000    0.002    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:137(name)
+     3001    0.002    0.000    0.002    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:275(_accept)
+     6003    0.002    0.000    0.002    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\multiprocessing\process.py:35(current_process)
+    12007    0.002    0.000    0.002    0.000 {method 'release' of '_thread.RLock' objects}
+    12000    0.002    0.000    0.002    0.000 {method 'bit_length' of 'int' objects}
+       18    0.001    0.000    0.001    0.000 {built-in method marshal.loads}
+     3001    0.001    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:66(_tilesort)
+      853    0.001    0.000    0.001    0.000 {method 'find' of 'bytes' objects}
+        1    0.001    0.001 1815.941 1815.941 C:/Users/Lila/photo_mosaic/sources/photo_mosaic_maker/MosaicBuilder/main.py:28(run_worker)
+     3001    0.001    0.000    0.001    0.000 {method 'cleanup' of 'ImagingDecoder' objects}
+     21/1    0.001    0.000 1815.963 1815.963 {built-in method builtins.exec}
+        1    0.001    0.001    0.002    0.002 {built-in method _imp.create_dynamic}
+       18    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:816(get_data)
+     3000    0.001    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:108(draft)
+       40    0.000    0.000    0.000    0.000 {built-in method winreg.OpenKey}
+       29    0.000    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+       18    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+       34    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:1215(find_spec)
+     15/3    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:491(_parse)
+      581    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:226(__next)
+      343    0.000    0.000    0.006    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\encodings\cp1252.py:22(decode)
+       21    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap>:879(_find_spec)
+      185    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+      167    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:52(<listcomp>)
+      167    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:50(_path_join)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:419(_validate_bytecode_header)
+      524    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:247(get)
+     21/5    0.000    0.000    0.018    0.004 <frozen importlib._bootstrap>:966(_find_and_load)
+       18    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:729(get_code)
+     30/3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:64(_compile)
+     58/5    0.000    0.000    0.018    0.004 <frozen importlib._bootstrap>:996(_handle_fromlist)
+       36    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:56(_path_split)
+       36    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:246(cache_from_source)
+     14/3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:194(__subclasscheck__)
+        1    0.000    0.000    0.007    0.007 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:42(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:343(_populate)
+     20/5    0.000    0.000    0.016    0.003 <frozen importlib._bootstrap>:659(_load_unlocked)
+        1    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:20(<module>)
+       20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:510(_init_module_attrs)
+      343    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\codecs.py:280(getstate)
+       20    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:1101(_get_spec)
+     21/5    0.000    0.000    0.018    0.004 <frozen importlib._bootstrap>:939(_find_and_load_unlocked)
+        1    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+        1    0.000    0.000    0.000    0.000 <string>:5(DecimalTuple)
+    45/21    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:167(getwidth)
+      100    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:26(__new__)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(_get_module_lock)
+        2    0.000    0.000    0.001    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\collections\__init__.py:356(namedtuple)
+       15    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:248(_optimize_charset)
+       20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:598(_search_registry)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+     18/5    0.000    0.000    0.016    0.003 <frozen importlib._bootstrap_external>:659(exec_module)
+      169    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:366(_verbose_message)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:119(release)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:132(__new__)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(__exit__)
+      115    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:157(__getitem__)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:94(acquire)
+       36    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:513(spec_from_file_location)
+     15/5    0.000    0.000    0.018    0.004 {built-in method builtins.__import__}
+       71    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:68(_path_stat)
+      127    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       29    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:36(__init__)
+       42    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+       20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:591(_open_registry)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1210(_get_spec)
+       18    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:474(_compile_bytecode)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:163(__enter__)
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+     13/3    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:429(_parse_sub)
+       30    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:58(__iter__)
+        1    0.000    0.000    0.009    0.009 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:35(<module>)
+      100    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:135(<setcomp>)
+       20    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:570(module_from_spec)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:342(_get_cached)
+       15    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:221(_compile_charset)
+        1    0.000    0.000    0.117    0.117 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:212(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:287(_open)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__init__)
+       19    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:78(_path_is_mode_type)
+     37/5    0.000    0.000    0.018    0.004 <frozen importlib._bootstrap>:214(_call_with_frames_removed)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(__init__)
+        3    0.000    0.000    0.002    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\re.py:278(_compile)
+       40    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       81    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:856(__exit__)
+       18    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:826(path_stats)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:34(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:378(ImageFileDirectory_v2)
+       37    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:406(cached)
+       81    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:852(__enter__)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:412(_compile_info)
+       18    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+       38    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1064(_path_importer_cache)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:134(SOF)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:60(APP)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PpmImagePlugin.py:18(<module>)
+        7    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:589(_register_basic)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:30(<module>)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:419(parent)
+       30    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:105(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.jpeg_decoder}
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:786(__init__)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:30(_relax_case)
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\decimal.py:2(<module>)
+       59    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:242(match)
+        3    0.000    0.000    0.002    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:531(compile)
+       36    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:45(_r_long)
+        1    0.000    0.000    0.004    0.004 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\fractions.py:4(<module>)
+      102    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       36    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GifImagePlugin.py:27(<module>)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:314(__enter__)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:575(decorator)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:382(_check_name_wrapper)
+       80    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:324(<genexpr>)
+       20    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:1133(find_spec)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:170(__exit__)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:225(_verbose_message)
+       13    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:386(_simple)
+       19    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:87(_path_isfile)
+        1    0.000    0.000    0.002    0.002 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImagePalette.py:19(<module>)
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:26(__exit__)
+       20    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       37    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:165(append)
+       38    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:276(tell)
+        1    0.000    0.000    0.004    0.004 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:27(<module>)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:260(getuntil)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\fractions.py:60(Fraction)
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:362(_escape)
+        3    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:819(parse)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:159(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:182(DQT)
+       45    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:153(__len__)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2425(register_open)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:257(IFDRational)
+       20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:613(find_spec)
+    29/12    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+       20    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:20(__enter__)
+       15    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:81(add)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:70(__init__)
+       23    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       81    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:78(opengroup)
+        7    0.000    0.000    0.000    0.000 {built-in method _struct.calcsize}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:465(normpath)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpGradientFile.py:16(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageColor.py:20(<module>)
+        1    0.000    0.000    0.000    0.000 <string>:5(_TagInfo)
+       12    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2474(register_extension)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2440(register_mime)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:217(__init__)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:310(__init__)
+        3    0.000    0.000    0.001    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1269(info)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:789(find_spec)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:1498(AppendingTiffWriter)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegPresets.py:67(<module>)
+        2    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:742(jpeg_factory)
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:16(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1132(getLogger)
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:190(cb)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:516(_code)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:716(find_spec)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageChops.py:18(<module>)
+       10    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\collections\__init__.py:421(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:508(getdefaultlocale)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1183(_fixupParents)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\fractions.py:318(_operator_fallbacks)
+       15    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\collections\__init__.py:419(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpPaletteFile.py:17(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\abc.py:151(register)
+       37    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       28    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:335(_delegate)
+       14    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_weakrefset.py:52(_commit_removals)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+       16    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:75(groups)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:561(getlocale)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:799(ImageFileDirectory_v1)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:892(TiffImageFile)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:55(Skip)
+        3    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:90(closegroup)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:436(spec_from_loader)
+        3    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:797(fix_flags)
+        4    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:101(fixup)
+        1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap_external>:903(create_module)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\ntpath.py:530(abspath)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PaletteFile.py:16(<module>)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:656(create_module)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:427(has_location)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1239(__init__)
+       31    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       15    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+       17    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2451(register_save)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:811(get_filename)
+        8    0.000    0.000    0.000    0.000 {built-in method _sre.getlower}
+        9    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_collections_abc.py:308(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:97(ChunkStream)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:211(_acquireLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GifImagePlugin.py:53(GifImageFile)
+       13    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:397(_getmp)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:245(get_tile_number)
+        1    0.000    0.000    0.000    0.000 {built-in method nt._getfullpathname}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:911(exec_module)
+        6    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_compile.py:513(isstring)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:375(normalize)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:220(_releaseLock)
+       13    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\sre_parse.py:161(__setitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:135(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1774(getLogger)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:61(BmpImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:280(PngStream)
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:253(get_output_size)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:235(_requires_builtin_wrapper)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:737(create_module)
+       10    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        3    0.000    0.000    0.002    0.001 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\re.py:222(compile)
+       21    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:459(_getmp)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:574(_register_loader)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\JpegImagePlugin.py:282(JpegImageFile)
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\Image.py:2462(register_save_all)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:307(Parser)
+        1    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImagePalette.py:26(ImagePalette)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:892(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\locale.py:458(_parse_localename)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:75(ImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\_bootlocale.py:11(getpreferredencoding)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:745(exec_module)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:515(PngImageFile)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:583(_register_writer)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:183(iTXt)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:203(PngInfo)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\photo_mosaic\sources\photo_mosaic_maker\MosaicBuilder\Mosaic.py:238(get_imsize)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageSequence.py:19(Iterator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:277(StubImageFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageSequence.py:19(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:675(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\codecs.py:259(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpGradientFile.py:61(GradientFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:1086(append)
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffTags.py:23(TagInfo)
+        1    0.000    0.000    0.000    0.000 {method 'getroot' of 'lxml.etree._ElementTree' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PpmImagePlugin.py:59(PpmImageFile)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\logging\__init__.py:182(_checkLevel)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpPaletteFile.py:24(GimpPaletteFile)
+        5    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\TiffImagePlugin.py:584(decorator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\GimpGradientFile.py:102(GimpGradientFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PaletteFile.py:22(PaletteFile)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\PngImagePlugin.py:657(_idat)
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\ImageFile.py:264(load_end)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Lila\AppData\Local\Programs\Python\Python35\lib\site-packages\PIL\BmpImagePlugin.py:211(DibImageFile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:762(is_package)
+        5    0.000    0.000    0.000    0.000 {method '__subclasshook__' of 'object' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}

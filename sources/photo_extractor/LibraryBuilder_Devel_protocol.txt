@@ -1,0 +1,128 @@
+LibraryBuilder Development Protocol:
+
+27.9.
+
+	- first try parsing website www.albumartexchange.com,
+		reverse engineered (using firefoxes developer tools) a method to parse website for image urls, 
+		that worked quite well until I was blocked by BlockScript which runs on the site. I had previously experienced 			blockscript while on campus at the Technikum.
+		There, the problem was my use of the eduroam network which as a free network is generally blocked by blockscript, 			apparently. 
+		The individual blocking of my program started on 26.9 in the evening, after I had let it run a couple of times for 			testing purposes.
+		Tried to circumvent blockscript by sending all headers my browser (mozilla firefox) sends, to no avail.
+		possible solution: try to reason with albumartexchange.com, explain to them that i'm doing my bachelor thesis
+	
+		workaround: found another page (www.udiscovermusic.com), which has a '100 greatest album covers' article.
+		adapted url-searching function to parse this site for urls, works perfectly but only contains 100 album covers.
+	
+		third-party packages used are BeautifulSoup as well as Pillow
+
+
+	- I actually managed to get around blockscript. I used the firefox addon Firebug
+		to inspect all traffic between my browser and www.albumartexchange.com. 
+		I examined the headers sent from my browser to the site and directly mimicked my browser's behaviour.
+		This got me around blockscript at least. But I soon discovered, that the headers sent change depending on the page 			I visited.
+		If I wanted to go through multiple pages of search results, I had to adapt the headers sent for each of those pages.
+		As of now, I have adapted all headers but still can not move from page to page as I previously could (before the 			blocking).
+		But hey! I managed to get around blockscript :)
+	
+	- So, I'm pretty stupid. The reason I couldn't move to the next page in search results was my own code.
+		I passed the base-url each time, instead of the updated url. So now everything works again and I successfully 			circumvented blockscript.
+		(a script that is specifically designed to block programs like mine, I might add)
+			I am so smart! S-M-R-T!
+		
+	- 20:57 My browser is now being blocked by albumartexchange.com but my program can still access it. They're putting up 			quite a fight. I'm still winning.
+		- details: 
+				- browser seems to use a different cookie than before
+				blocked firefox headers:
+				Accept	
+					text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+				Accept-Encoding	
+					gzip, deflate
+				Accept-Language	
+					en,de;q=0.7,en-US;q=0.3
+				Connection	
+					keep-alive
+				Cookie	
+					options=dark.8; phpbb3_edmwu_u=1; phpbb3_edmwu_k=; 						phpbb3_edmwu_sid=93d4df5195540d781350f328f65ccfb0
+					; bn42b3=8S6TYRNEWJHxIxf%2BLmNknCbunIFH6f%2B48RWlEHSKH%2BnE1ZzeKliRoIfd; 						PHPSESSID=9a957de5d51ee9570
+					82da5d898cafeff
+				DNT	
+					1
+				Host	
+					www.albumartexchange.com
+				Upgrade-Insecure-Requests	
+					1
+				User-Agent	
+					Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+28.9
+
+	- interestingly enough, the web scraper now works on my laptop (with p) and within eduroam (also browser works within 			eduroam)
+	- i have to work out the ethical implications of scraping against their whishes
+
+30.9.
+
+	- they added watermarks.
+	- maybe if i create a user profile and send login information.
+	- the question is: is it worth it? 
+	- i have no idea why my program still works, my entire ip seems to be blocked (no access on all devices in my lan)
+
+	- starting to look towards fanart.tv
+		- they have an API!
+
+1.10
+
+	- rewriting (almost) everything.
+	- fanart.tv returns JSON but python has built-in json support so that sould be no problem
+	- to use fanart.tv api I need the artist's MBID (from musicbrainz), which uses xml so I better find some xml-parser as well.
+	- etree to the rescue!
+
+2.10.
+	- changed index format from csv to xml
+	- removed Artist class -> I'll just manipulate the etree directly
+
+5.10.
+	- added average color calculations and the possibility to save album covers as well as color samples to disk
+	- i thought about writing a script to go through my music folder, get all the artist names and feed them to my 
+		library builder. BUT that turned out pretty impossible since my folder- and filenames don't follow any kind of 			structure. the program would pretty much have to guess what part of the name is the artist name.
+	- then I thought about reading my music players library file and getting artist names that way. 
+		Unfortunately, foobar2000's dev has specifically stated that the lib file is not meant to be read by anyone other 			than foobar2000 and it's intentionally obtuse apparently.
+	- next try: itunes library.
+		- turns out it's exremely easy to get all the info out of iTunes' media file.
+		I now have 1306 artists to feed to my libraryBuilder. i'm pretty sure many of those won't have any album covers 
+		on fanart.tv but this at least is a start towards an extensive index of album art
+	- i finally got rid of all the BeautifulSoup code in favor of lxml.etree
+	- since some artists' names can contain non-ascii characters (namely latin-1), 
+		I need to find a way to get urrlib to work with latin-1. encoding to utf-8 does not work for the url,
+		but not encoding it causes an exception.
+		
+16.10.
+	- fanart.tv returns an extraordinary amount of Error 500 (internal server error) today. Almost all requests return err 500.
+		Some requests do work though, so i don't really know whats wrong. According to the internet, internal server error means there's an error on their side, not mine. who knows?
+	- I found a program that converts foobar2000's playlist files to xml (https://github.com/tetrisfrog/fplreader) 
+		- the output xml is not the best, so some changes had to be made (small syntax problems like '<' inside text)
+		- parsing that gives me 3000 artists, should be more than enough (if the fanart problems can be solved)
+		
+17.10.
+	- fanart works again. yay
+	- i've decided to add the media file used by ArtistCollector to the repo since I need it to test when not at home.
+
+18.11.
+
+	- long time no see
+	- i added a method today to get fanart.tv's latest artists and add them to the database directly.
+			- unfortunately, i get HTTP Error 503 : temporarily unavailable 
+				so i can't really test it.
+					--> for some reason it always stops at get_artist_name(id), even though it used the musicbrainz service before in get_artist_id(name) (seems redundant, i know, but it isn't)
+							so, the first call always works, the second call fails.
+					--> turns out most calls fail but some go through. seems to be a problem on their part. at least i managed to add two of the latest artists to my database so far
+				
+	- i also added a possibility to save the entire album cover database to a local disk.
+		-> once i start testing, i really don't want to strain fanarts servers b/c i download the entire database 10 times a day.
+		-> download is complete, i have over 8000 album covers locally accessible now.
+		
+		
+3.12.
+
+	- added a method to get the most dominant colors from an image.
+	- after spending a day working on it i realize that this is not actually what i want at all since i'm only getting three main colors, but not in any order, so i do not know which one is actually dominating the image.
+	- e.g. my program returned a 'best match' on an orange album cover, even though only about a tenth of the original tile was orange.
+	- so unless i can figure out a way to get the colors in some sort of order all of today's work was pretty much a failure.
